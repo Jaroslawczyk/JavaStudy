@@ -26,7 +26,68 @@
         "pl": "Instalacja, zmienne, typy danych, warunki, pętle, tablice, napisy."
       },
       "items": [
-        { "id": "j1-setup", "kind": "lessons", "video": "j1", "start": "0:00", "end": "6:05", "title": { "ru": "Введение и установка IntelliJ IDEA + JDK", "en": "Introduction and installing IntelliJ IDEA + JDK", "pl": "Wprowadzenie i instalacja IntelliJ IDEA + JDK" } }
+        { "id": "j1-setup", "kind": "lessons", "video": "j1", "start": "0:00", "end": "6:05", "title": { "ru": "Введение и установка IntelliJ IDEA + JDK", "en": "Introduction and installing IntelliJ IDEA + JDK", "pl": "Wprowadzenie i instalacja IntelliJ IDEA + JDK" } },
+        { "id": "j1-hello-world", "kind": "lessons", "video": "j1", "start": "6:05", "end": "12:43", "title": { "ru": "Первая программа: Hello World", "en": "The first program: Hello World", "pl": "Pierwszy program: Hello World" } },
+        { "id": "j1-variables", "kind": "lessons", "video": "j1", "start": "12:43", "end": "25:26", "title": { "ru": "Переменные и тип int", "en": "Variables and the int type", "pl": "Zmienne i typ int" } },
+        { "id": "j1-if-else", "kind": "lessons", "video": "j1", "start": "25:26", "end": "32:10", "title": { "ru": "Условный оператор if-else", "en": "The if-else statement", "pl": "Instrukcja warunkowa if-else" } },
+        { "id": "j1-integer-types", "kind": "lessons", "video": "j1", "start": "32:10", "end": "43:55", "title": { "ru": "Целые типы, переполнение и приведение типов", "en": "Integer types, overflow and type casting", "pl": "Typy całkowite, przepełnienie i rzutowanie" } },
+        { "id": "j1-float-char-boolean", "kind": "lessons", "video": "j1", "start": "43:55", "end": "1:02:40", "title": { "ru": "float, double, char, boolean и логические операторы", "en": "float, double, char, boolean and logical operators", "pl": "float, double, char, boolean i operatory logiczne" } },
+        { "id": "j1-loops", "kind": "lessons", "video": "j1", "start": "1:02:40", "end": "1:19:31", "title": { "ru": "Циклы while, do-while, for", "en": "Loops: while, do-while, for", "pl": "Pętle while, do-while, for" } },
+        { "id": "j1-arrays", "kind": "lessons", "video": "j1", "start": "1:19:31", "end": "1:34:17", "title": { "ru": "Массивы и цикл for-each", "en": "Arrays and the for-each loop", "pl": "Tablice i pętla for-each" } },
+        { "id": "j1-strings-switch", "kind": "lessons", "video": "j1", "start": "1:34:17", "end": "1:49:19", "title": { "ru": "Строки, спецсимволы и switch", "en": "Strings, special characters and switch", "pl": "Napisy, znaki specjalne i switch" } }
+      ]
+    },
+    {
+      "id": "oop",
+      "icon": "🧱",
+      "title": { "ru": "Часть 1. ООП", "en": "Part 1. OOP", "pl": "Część 1. OOP" },
+      "desc": {
+        "ru": "Классы и объекты, методы, конструкторы, перегрузка, инкапсуляция, static, наследование, полиморфизм, интерфейсы.",
+        "en": "Classes and objects, methods, constructors, overloading, encapsulation, static, inheritance, polymorphism, interfaces.",
+        "pl": "Klasy i obiekty, metody, konstruktory, przeciążanie, enkapsulacja, static, dziedziczenie, polimorfizm, interfejsy."
+      },
+      "items": [
+        { "id": "j1-classes-objects", "kind": "lessons", "video": "j1", "start": "1:49:19", "end": "2:00:49", "title": { "ru": "Классы и объекты, ссылочные переменные", "en": "Classes, objects and reference variables", "pl": "Klasy, obiekty i zmienne referencyjne" } },
+        { "id": "j1-methods", "kind": "lessons", "video": "j1", "start": "2:00:49", "end": "2:18:13", "title": { "ru": "Методы, параметры, return и this", "en": "Methods, parameters, return and this", "pl": "Metody, parametry, return i this" } },
+        { "id": "j1-constructors", "kind": "lessons", "video": "j1", "start": "2:18:13", "end": "2:25:13", "title": { "ru": "Конструкторы", "en": "Constructors", "pl": "Konstruktory" } },
+        { "id": "j1-overloading", "kind": "lessons", "video": "j1", "start": "2:25:13", "end": "2:41:00", "title": { "ru": "Перегрузка методов и конструкторов", "en": "Method and constructor overloading", "pl": "Przeciążanie metod i konstruktorów" } },
+        { "id": "j1-objects-as-params", "kind": "lessons", "video": "j1", "start": "2:41:00", "end": "2:55:18", "title": { "ru": "Объекты как параметры и возвращаемые значения", "en": "Objects as parameters and return values", "pl": "Obiekty jako parametry i wartości zwracane" } },
+        { "id": "j1-access-modifiers", "kind": "lessons", "video": "j1", "start": "2:55:18", "end": "3:11:24", "title": { "ru": "Модификаторы доступа, инкапсуляция, пакеты", "en": "Access modifiers, encapsulation, packages", "pl": "Modyfikatory dostępu, enkapsulacja, pakiety" } },
+        { "id": "j1-static-final", "kind": "lessons", "video": "j1", "start": "3:11:24", "end": "3:24:18", "title": { "ru": "static, final, константы и varargs", "en": "static, final, constants and varargs", "pl": "static, final, stałe i varargs" } }
+      ]
+    },
+    {
+      "id": "collections1",
+      "icon": "📦",
+      "title": { "ru": "Часть 1. Коллекции", "en": "Part 1. Collections", "pl": "Część 1. Kolekcje" },
+      "desc": {
+        "ru": "Своя коллекция, обёртки и парсинг строк, ArrayList, HashSet, TreeSet и HashMap.",
+        "en": "Your own collection, wrappers and string parsing, ArrayList, HashSet, TreeSet and HashMap.",
+        "pl": "Własna kolekcja, klasy opakowujące i parsowanie napisów, ArrayList, HashSet, TreeSet i HashMap."
+      },
+      "items": [
+        { "id": "j1-my-arraylist", "kind": "lessons", "video": "j1", "start": "3:24:18", "end": "3:43:13", "title": { "ru": "Своя коллекция MyArrayList", "en": "Building MyArrayList", "pl": "Własna kolekcja MyArrayList" } },
+        { "id": "j1-wrappers-parsing", "kind": "lessons", "video": "j1", "start": "3:43:13", "end": "3:54:51", "title": { "ru": "Обёртки, автоупаковка, parseInt и substring", "en": "Wrappers, autoboxing, parseInt and substring", "pl": "Klasy opakowujące, autoboxing, parseInt i substring" } },
+        { "id": "j1-collections", "kind": "lessons", "video": "j1", "start": "3:54:51", "end": "4:06:49", "title": { "ru": "ArrayList, HashSet, TreeSet (+ HashMap)", "en": "ArrayList, HashSet, TreeSet (+ HashMap)", "pl": "ArrayList, HashSet, TreeSet (+ HashMap)" } }
+      ]
+    },
+    {
+      "id": "oop2",
+      "icon": "🧬",
+      "title": { "ru": "Часть 1. Наследование, интерфейсы, исключения", "en": "Part 1. Inheritance, interfaces, exceptions", "pl": "Część 1. Dziedziczenie, interfejsy, wyjątki" },
+      "desc": {
+        "ru": "extends и super, abstract и final, полиморфизм, интерфейсы, анонимные классы, try-catch.",
+        "en": "extends and super, abstract and final, polymorphism, interfaces, anonymous classes, try-catch.",
+        "pl": "extends i super, abstract i final, polimorfizm, interfejsy, klasy anonimowe, try-catch."
+      },
+      "items": [
+        { "id": "j1-inheritance", "kind": "lessons", "video": "j1", "start": "4:06:49", "end": "4:30:06", "title": { "ru": "Наследование, super и @Override", "en": "Inheritance, super and @Override", "pl": "Dziedziczenie, super i @Override" } },
+        { "id": "j1-abstract-final", "kind": "lessons", "video": "j1", "start": "4:30:06", "end": "4:44:50", "title": { "ru": "Абстрактные классы и final", "en": "Abstract classes and final", "pl": "Klasy abstrakcyjne i final" } },
+        { "id": "j1-interfaces", "kind": "lessons", "video": "j1", "start": "4:44:50", "end": "5:02:57", "title": { "ru": "Полиморфизм и интерфейсы", "en": "Polymorphism and interfaces", "pl": "Polimorfizm i interfejsy" } },
+        { "id": "j1-anonymous-classes", "kind": "lessons", "video": "j1", "start": "5:02:57", "end": "5:10:14", "title": { "ru": "Анонимные классы (и лямбды)", "en": "Anonymous classes (and lambdas)", "pl": "Klasy anonimowe (i lambdy)" } },
+        { "id": "j1-exceptions", "kind": "lessons", "video": "j1", "start": "5:10:14", "end": "5:21:15", "title": { "ru": "Исключения: try-catch-finally", "en": "Exceptions: try-catch-finally", "pl": "Wyjątki: try-catch-finally" } },
+        { "id": "j1-object-tostring", "kind": "lessons", "video": "j1", "start": "5:21:15", "end": "5:32:36", "title": { "ru": "Object.toString, String.format и Math.random", "en": "Object.toString, String.format and Math.random", "pl": "Object.toString, String.format i Math.random" } },
+        { "id": "j1-threads-intro", "kind": "lessons", "video": "j1", "start": "5:32:36", "end": "5:48:56", "title": { "ru": "Введение в многопоточность: Thread и Runnable", "en": "Intro to multithreading: Thread and Runnable", "pl": "Wprowadzenie do wielowątkowości: Thread i Runnable" } }
       ]
     }
   ]
