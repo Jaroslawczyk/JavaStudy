@@ -203,3 +203,41 @@
     background: var(--color-accent-soft);
   }
 }
+
+.sidebar__top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.sidebar__top .search {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar__collapse {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .sidebar__collapse {
+    order: 1;
+    display: inline-grid;
+    flex: none;
+    place-items: center;
+    width: 36px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    color: var(--color-heading);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .sidebar__collapse:hover {
+    background: var(--color-accent-soft);
+  }
+}

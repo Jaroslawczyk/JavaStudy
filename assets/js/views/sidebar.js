@@ -57,10 +57,13 @@ function renderGroups() {
 export function renderSidebar(container) {
   el = container;
   el.innerHTML = `<div class="sidebar__inner">
+    <div class="sidebar__top">
+    <button class="sidebar__collapse" type="button" data-action="toggle-sidebar" aria-controls="sidebar" title="${esc(t('sidebar.collapse'))}" aria-label="${esc(t('sidebar.collapse'))}">‹</button>
     <div class="search">
       <label class="visually-hidden" for="sidebar-search">${esc(t('search.label'))}</label>
       <span class="search__icon" aria-hidden="true">⌕</span>
       <input class="search__input" id="sidebar-search" type="search" placeholder="${esc(t('search.placeholder'))}" value="${esc(query)}" autocomplete="off">
+    </div>
     </div>
     <nav data-slot="sidebar-groups" aria-label="${esc(t('sidebar.title'))}"></nav>
   </div>`;

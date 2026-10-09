@@ -5,7 +5,11 @@
   "a11ySettings": "Reading & accessibility",
   "copy": "Copy",
   "copied": "Copied!",
-  "lang": { "ru": "Русский", "en": "English", "pl": "Polski" },
+  "lang": {
+    "ru": "Русский",
+    "en": "English",
+    "pl": "Polski"
+  },
   "nav": {
     "home": "Home",
     "tools": "Tools",
@@ -20,7 +24,10 @@
     "placeholder": "Find a lesson…",
     "empty": "Nothing found"
   },
-  "sidebar": { "title": "Course contents" },
+  "sidebar": {
+    "title": "Course contents",
+    "collapse": "Collapse menu"
+  },
   "video": {
     "part1": "Video, part 1",
     "part2": "Video, part 2",

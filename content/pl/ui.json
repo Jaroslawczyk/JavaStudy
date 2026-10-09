@@ -5,7 +5,11 @@
   "a11ySettings": "Czytanie i dostępność",
   "copy": "Kopiuj",
   "copied": "Skopiowano!",
-  "lang": { "ru": "Русский", "en": "English", "pl": "Polski" },
+  "lang": {
+    "ru": "Русский",
+    "en": "English",
+    "pl": "Polski"
+  },
   "nav": {
     "home": "Start",
     "tools": "Narzędzia",
@@ -20,7 +24,10 @@
     "placeholder": "Znajdź lekcję…",
     "empty": "Nic nie znaleziono"
   },
-  "sidebar": { "title": "Spis treści kursu" },
+  "sidebar": {
+    "title": "Spis treści kursu",
+    "collapse": "Zwiń menu"
+  },
   "video": {
     "part1": "Wideo, część 1",
     "part2": "Wideo, część 2",
