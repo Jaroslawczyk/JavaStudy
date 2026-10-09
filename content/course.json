@@ -89,6 +89,28 @@
         { "id": "j1-object-tostring", "kind": "lessons", "video": "j1", "start": "5:21:15", "end": "5:32:36", "title": { "ru": "Object.toString, String.format и Math.random", "en": "Object.toString, String.format and Math.random", "pl": "Object.toString, String.format i Math.random" } },
         { "id": "j1-threads-intro", "kind": "lessons", "video": "j1", "start": "5:32:36", "end": "5:48:56", "title": { "ru": "Введение в многопоточность: Thread и Runnable", "en": "Intro to multithreading: Thread and Runnable", "pl": "Wprowadzenie do wielowątkowości: Thread i Runnable" } }
       ]
+    },
+    {
+      "id": "level2",
+      "icon": "🎯",
+      "title": { "ru": "Уровень 2. Тесты и коллекции изнутри", "en": "Level 2. Tests and collections inside out", "pl": "Poziom 2. Testy i kolekcje od środka" },
+      "desc": {
+        "ru": "JUnit, TDD, свои реализации ArrayList, LinkedList, HashSet, HashMap, Big O и вопросы с собеседований.",
+        "en": "JUnit, TDD, your own ArrayList, LinkedList, HashSet, HashMap, Big O and interview questions.",
+        "pl": "JUnit, TDD, własne ArrayList, LinkedList, HashSet, HashMap, Big O i pytania rekrutacyjne."
+      },
+      "items": [
+        { "id": "j1-junit", "kind": "lessons", "video": "j1", "start": "5:48:56", "end": "6:10:14", "title": { "ru": "Автотесты на JUnit", "en": "Automated tests with JUnit", "pl": "Testy automatyczne w JUnit" } },
+        { "id": "j1-arraylist-internals", "kind": "lessons", "video": "j1", "start": "6:10:14", "end": "6:50:27", "title": { "ru": "ArrayList изнутри и сложность алгоритмов", "en": "ArrayList inside out and algorithmic complexity", "pl": "ArrayList od środka i złożoność algorytmów" } },
+        { "id": "j1-linkedlist", "kind": "lessons", "video": "j1", "start": "6:50:27", "end": "7:18:07", "title": { "ru": "LinkedList изнутри: ArrayList или LinkedList?", "en": "LinkedList inside out: ArrayList or LinkedList?", "pl": "LinkedList od środka: ArrayList czy LinkedList?" } },
+        { "id": "j1-memory-equals-hashcode", "kind": "lessons", "video": "j1", "start": "7:18:07", "end": "7:36:08", "title": { "ru": "Память, сборщик мусора, equals и hashCode", "en": "Memory, the garbage collector, equals and hashCode", "pl": "Pamięć, garbage collector, equals i hashCode" } },
+        { "id": "j1-hashset", "kind": "lessons", "video": "j1", "start": "7:36:08", "end": "8:17:46", "title": { "ru": "HashSet и хеш-таблица изнутри", "en": "HashSet and the hash table inside out", "pl": "HashSet i tablica haszująca od środka" } },
+        { "id": "j1-iterator", "kind": "lessons", "video": "j1", "start": "8:17:46", "end": "8:39:48", "title": { "ru": "Iterable и Iterator + мини-собеседование", "en": "Iterable and Iterator + a mini-interview", "pl": "Iterable i Iterator + mini-rozmowa" } },
+        { "id": "j1-treeset", "kind": "lessons", "video": "j1", "start": "8:39:48", "end": "8:54:14", "title": { "ru": "TreeSet, Comparable и Comparator", "en": "TreeSet, Comparable and Comparator", "pl": "TreeSet, Comparable i Comparator" } },
+        { "id": "j1-hashmap", "kind": "lessons", "video": "j1", "start": "8:54:14", "end": "9:33:24", "title": { "ru": "HashMap изнутри", "en": "HashMap inside out", "pl": "HashMap od środka" } },
+        { "id": "j1-maps-queue", "kind": "lessons", "video": "j1", "start": "9:33:24", "end": "9:49:38", "title": { "ru": "LinkedHashMap, TreeMap и очереди", "en": "LinkedHashMap, TreeMap and queues", "pl": "LinkedHashMap, TreeMap i kolejki" } },
+        { "id": "j1-collections-interview", "kind": "lessons", "video": "j1", "start": "9:49:38", "end": "9:58:10", "title": { "ru": "Собеседование по коллекциям", "en": "Collections interview", "pl": "Rozmowa rekrutacyjna: kolekcje" } }
+      ]
     }
   ]
 }
