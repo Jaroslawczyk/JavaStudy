@@ -241,3 +241,31 @@
     background: var(--color-accent-soft);
   }
 }
+
+/* Десктоп: меню закреплено слева на всю высоту под шапкой и не уезжает у подвала */
+@media (min-width: 1100px) {
+  .sidebar {
+    position: fixed;
+    top: var(--header-h, calc(var(--header-height) + 3px));
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    width: var(--sidebar-width);
+    height: auto;
+  }
+
+  .layout,
+  .sidebar-collapsed .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .layout,
+  .footer {
+    padding-left: var(--sidebar-width);
+  }
+
+  .sidebar-collapsed .layout,
+  .sidebar-collapsed .footer {
+    padding-left: 0;
+  }
+}
