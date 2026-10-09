@@ -111,6 +111,100 @@
         { "id": "j1-maps-queue", "kind": "lessons", "video": "j1", "start": "9:33:24", "end": "9:49:38", "title": { "ru": "LinkedHashMap, TreeMap и очереди", "en": "LinkedHashMap, TreeMap and queues", "pl": "LinkedHashMap, TreeMap i kolejki" } },
         { "id": "j1-collections-interview", "kind": "lessons", "video": "j1", "start": "9:49:38", "end": "9:58:10", "title": { "ru": "Собеседование по коллекциям", "en": "Collections interview", "pl": "Rozmowa rekrutacyjna: kolekcje" } }
       ]
+    },
+    {
+      "id": "generics",
+      "icon": "🔣",
+      "title": { "ru": "Часть 2. Дженерики", "en": "Part 2. Generics", "pl": "Część 2. Typy generyczne" },
+      "desc": {
+        "ru": "Параметризованные типы, стирание типов, ограничения, wildcard и правило PECS.",
+        "en": "Parameterised types, type erasure, bounds, wildcards and the PECS rule.",
+        "pl": "Typy parametryzowane, wymazywanie typów, ograniczenia, wildcard i reguła PECS."
+      },
+      "items": [
+        { "id": "j2-generics", "kind": "lessons", "video": "j2", "start": "0:00", "end": "16:46", "title": { "ru": "Дженерики: зачем нужны и как работают", "en": "Generics: why and how they work", "pl": "Generyki: po co i jak działają" } },
+        { "id": "j2-generic-collections", "kind": "lessons", "video": "j2", "start": "16:46", "end": "30:08", "title": { "ru": "Обобщённые коллекции и ограничения дженериков", "en": "Generic collections and the limits of generics", "pl": "Kolekcje generyczne i ograniczenia generyków" } },
+        { "id": "j2-bounded-wildcards", "kind": "lessons", "video": "j2", "start": "30:08", "end": "44:22", "title": { "ru": "Ограничения типов и wildcard", "en": "Bounded types and wildcards", "pl": "Ograniczone typy i wildcard" } },
+        { "id": "j2-generic-methods", "kind": "lessons", "video": "j2", "start": "44:22", "end": "1:03:43", "title": { "ru": "Обобщённые методы, PECS и собеседование", "en": "Generic methods, PECS and interview", "pl": "Metody generyczne, PECS i rozmowa" } }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "icon": "🧵",
+      "title": { "ru": "Часть 2. Многопоточность", "en": "Part 2. Concurrency", "pl": "Część 2. Wielowątkowość" },
+      "desc": {
+        "ru": "Потоки, синхронизация, атомики, volatile, пулы потоков, Future, wait/notify, deadlock, concurrent-коллекции и синхронизаторы.",
+        "en": "Threads, synchronisation, atomics, volatile, thread pools, Future, wait/notify, deadlock, concurrent collections and synchronisers.",
+        "pl": "Wątki, synchronizacja, atomiki, volatile, pule wątków, Future, wait/notify, deadlock, kolekcje współbieżne i synchronizatory."
+      },
+      "items": [
+        { "id": "j2-threads-basics", "kind": "lessons", "video": "j2", "start": "1:03:43", "end": "1:14:08", "title": { "ru": "Процессы, потоки, Thread и Runnable", "en": "Processes, threads, Thread and Runnable", "pl": "Procesy, wątki, Thread i Runnable" } },
+        { "id": "j2-thread-control", "kind": "lessons", "video": "j2", "start": "1:14:08", "end": "1:40:16", "title": { "ru": "interrupt, sleep, join и параллельный расчёт", "en": "interrupt, sleep, join and parallel computation", "pl": "interrupt, sleep, join i obliczenia równoległe" } },
+        { "id": "j2-daemon-race", "kind": "lessons", "video": "j2", "start": "1:40:16", "end": "1:50:42", "title": { "ru": "Потоки-демоны и состояние гонки", "en": "Daemon threads and race conditions", "pl": "Wątki demony i wyścig" } },
+        { "id": "j2-synchronized", "kind": "lessons", "video": "j2", "start": "1:50:42", "end": "2:11:01", "title": { "ru": "synchronized и мониторы", "en": "synchronized and monitors", "pl": "synchronized i monitory" } },
+        { "id": "j2-atomic-volatile", "kind": "lessons", "video": "j2", "start": "2:11:01", "end": "2:18:10", "title": { "ru": "Атомарные типы и volatile", "en": "Atomic types and volatile", "pl": "Typy atomowe i volatile" } },
+        { "id": "j2-threads-interview", "kind": "lessons", "video": "j2", "start": "2:18:10", "end": "2:23:19", "title": { "ru": "Собеседование по основам многопоточности", "en": "Concurrency basics interview", "pl": "Rozmowa: podstawy wielowątkowości" } },
+        { "id": "j2-executor-service", "kind": "lessons", "video": "j2", "start": "2:23:19", "end": "2:39:44", "title": { "ru": "CountDownLatch и ExecutorService", "en": "CountDownLatch and ExecutorService", "pl": "CountDownLatch i ExecutorService" } },
+        { "id": "j2-callable-future", "kind": "lessons", "video": "j2", "start": "2:39:44", "end": "2:53:47", "title": { "ru": "ThreadFactory, Callable и Future", "en": "ThreadFactory, Callable and Future", "pl": "ThreadFactory, Callable i Future" } },
+        { "id": "j2-wait-notify", "kind": "lessons", "video": "j2", "start": "2:53:47", "end": "3:12:12", "title": { "ru": "wait, notify и блокирующая очередь", "en": "wait, notify and a blocking queue", "pl": "wait, notify i kolejka blokująca" } },
+        { "id": "j2-deadlock", "kind": "lessons", "video": "j2", "start": "3:12:12", "end": "3:23:33", "title": { "ru": "Deadlock — взаимная блокировка", "en": "Deadlock", "pl": "Deadlock — zakleszczenie" } },
+        { "id": "j2-concurrent-collections", "kind": "lessons", "video": "j2", "start": "3:23:33", "end": "3:31:21", "title": { "ru": "Потокобезопасные коллекции", "en": "Thread-safe collections", "pl": "Kolekcje bezpieczne wątkowo" } },
+        { "id": "j2-semaphore-barrier", "kind": "lessons", "video": "j2", "start": "3:31:21", "end": "4:00:31", "title": { "ru": "Semaphore, CyclicBarrier и гонка машин", "en": "Semaphore, CyclicBarrier and a car race", "pl": "Semaphore, CyclicBarrier i wyścig samochodów" } },
+        { "id": "j2-concurrency-interview", "kind": "lessons", "video": "j2", "start": "4:00:31", "end": "4:08:21", "title": { "ru": "Собеседование по многопоточности", "en": "Concurrency interview", "pl": "Rozmowa: wielowątkowość" } }
+      ]
+    },
+    {
+      "id": "streams",
+      "icon": "🌊",
+      "title": { "ru": "Часть 2. Лямбды и Stream API", "en": "Part 2. Lambdas and the Stream API", "pl": "Część 2. Lambdy i Stream API" },
+      "desc": {
+        "ru": "Лямбда-выражения, функциональные интерфейсы, filter/map/collect, Optional и параллельные стримы.",
+        "en": "Lambda expressions, functional interfaces, filter/map/collect, Optional and parallel streams.",
+        "pl": "Wyrażenia lambda, interfejsy funkcyjne, filter/map/collect, Optional i strumienie równoległe."
+      },
+      "items": [
+        { "id": "j2-lambdas", "kind": "lessons", "video": "j2", "start": "4:08:21", "end": "4:26:50", "title": { "ru": "Лямбды и функциональные интерфейсы", "en": "Lambdas and functional interfaces", "pl": "Lambdy i interfejsy funkcyjne" } },
+        { "id": "j2-stream-api", "kind": "lessons", "video": "j2", "start": "4:26:50", "end": "4:44:40", "title": { "ru": "Stream API: filter, map, collect", "en": "Stream API: filter, map, collect", "pl": "Stream API: filter, map, collect" } },
+        { "id": "j2-stream-operators", "kind": "lessons", "video": "j2", "start": "4:44:40", "end": "4:58:51", "title": { "ru": "count, match, sorted, limit, forEach", "en": "count, match, sorted, limit, forEach", "pl": "count, match, sorted, limit, forEach" } },
+        { "id": "j2-optional-parallel", "kind": "lessons", "video": "j2", "start": "4:58:51", "end": "5:13:27", "title": { "ru": "Optional, поиск и параллельные стримы", "en": "Optional, searching and parallel streams", "pl": "Optional, wyszukiwanie i strumienie równoległe" } },
+        { "id": "j2-streams-interview", "kind": "lessons", "video": "j2", "start": "5:13:27", "end": "5:18:00", "title": { "ru": "Собеседование по стримам", "en": "Streams interview", "pl": "Rozmowa: strumienie" } }
+      ]
+    },
+    {
+      "id": "io",
+      "icon": "📁",
+      "title": { "ru": "Часть 2. Файлы и ввод-вывод", "en": "Part 2. Files and I/O", "pl": "Część 2. Pliki i wejście-wyjście" },
+      "desc": {
+        "ru": "File и NIO, потоки байтов и символов, кодировки, буферы, Scanner, RandomAccessFile и сериализация.",
+        "en": "File and NIO, byte and character streams, encodings, buffers, Scanner, RandomAccessFile and serialisation.",
+        "pl": "File i NIO, strumienie bajtów i znaków, kodowania, bufory, Scanner, RandomAccessFile i serializacja."
+      },
+      "items": [
+        { "id": "j2-file", "kind": "lessons", "video": "j2", "start": "5:18:00", "end": "5:31:01", "title": { "ru": "Класс File, папки и Path", "en": "The File class, folders and Path", "pl": "Klasa File, foldery i Path" } },
+        { "id": "j2-input-stream", "kind": "lessons", "video": "j2", "start": "5:31:01", "end": "5:41:34", "title": { "ru": "InputStream и try-with-resources", "en": "InputStream and try-with-resources", "pl": "InputStream i try-with-resources" } },
+        { "id": "j2-strings-readers", "kind": "lessons", "video": "j2", "start": "5:41:34", "end": "5:59:38", "title": { "ru": "StringBuilder, буфер, Reader и кодировки", "en": "StringBuilder, buffers, Reader and encodings", "pl": "StringBuilder, bufor, Reader i kodowania" } },
+        { "id": "j2-output-buffered", "kind": "lessons", "video": "j2", "start": "5:59:38", "end": "6:16:51", "title": { "ru": "OutputStream, буферизация и Scanner", "en": "OutputStream, buffering and Scanner", "pl": "OutputStream, buforowanie i Scanner" } },
+        { "id": "j2-random-access", "kind": "lessons", "video": "j2", "start": "6:16:51", "end": "6:27:59", "title": { "ru": "Reader/Writer и RandomAccessFile", "en": "Reader/Writer and RandomAccessFile", "pl": "Reader/Writer i RandomAccessFile" } },
+        { "id": "j2-serialization", "kind": "lessons", "video": "j2", "start": "6:27:59", "end": "6:51:12", "title": { "ru": "Сериализация", "en": "Serialisation", "pl": "Serializacja" } },
+        { "id": "j2-io-interview", "kind": "lessons", "video": "j2", "start": "6:51:12", "end": "6:55:43", "title": { "ru": "Собеседование по вводу-выводу", "en": "I/O interview", "pl": "Rozmowa: wejście-wyjście" } }
+      ]
+    },
+    {
+      "id": "final",
+      "icon": "🏁",
+      "title": { "ru": "Часть 2. Теория и итоговое собеседование", "en": "Part 2. Theory and the final interview", "pl": "Część 2. Teoria i rozmowa końcowa" },
+      "desc": {
+        "ru": "JVM, JRE и JDK, интерфейсы, исключения, finalize, принципы ООП и большое собеседование по всему курсу.",
+        "en": "JVM, JRE and JDK, interfaces, exceptions, finalize, OOP principles and a big interview on the whole course.",
+        "pl": "JVM, JRE i JDK, interfejsy, wyjątki, finalize, zasady OOP i duża rozmowa z całego kursu."
+      },
+      "items": [
+        { "id": "j2-jvm-jre-jdk", "kind": "lessons", "video": "j2", "start": "6:55:43", "end": "7:00:17", "title": { "ru": "Как работает Java: JVM, JRE, JDK", "en": "How Java works: JVM, JRE, JDK", "pl": "Jak działa Java: JVM, JRE, JDK" } },
+        { "id": "j2-interfaces-modern", "kind": "lessons", "video": "j2", "start": "7:00:17", "end": "7:06:49", "title": { "ru": "Интерфейсы и абстрактные классы", "en": "Interfaces and abstract classes", "pl": "Interfejsy i klasy abstrakcyjne" } },
+        { "id": "j2-exceptions-finalize", "kind": "lessons", "video": "j2", "start": "7:06:49", "end": "7:17:14", "title": { "ru": "Виды исключений и finalize()", "en": "Exception types and finalize()", "pl": "Rodzaje wyjątków i finalize()" } },
+        { "id": "j2-oop-principles", "kind": "lessons", "video": "j2", "start": "7:17:14", "end": "7:22:50", "title": { "ru": "Принципы ООП и SOLID", "en": "OOP principles and SOLID", "pl": "Zasady OOP i SOLID" } },
+        { "id": "j2-final-interview", "kind": "lessons", "video": "j2", "start": "7:22:50", "end": "7:38:55", "title": { "ru": "Итоговое собеседование по курсу", "en": "Final course interview", "pl": "Końcowa rozmowa rekrutacyjna" } }
+      ]
     }
   ]
 }
