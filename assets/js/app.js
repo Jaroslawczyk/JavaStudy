@@ -66,11 +66,11 @@ function notFound() {
   document.title = `${t('notFound.title')} — JavaStudy`;
 }
 
-function scrollToAnchor(anchor) {
+function scrollToAnchor(anchor, smooth = false) {
   if (!anchor) return false;
   const target = document.getElementById(anchor);
   if (!target) return false;
-  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  target.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
   return true;
 }
 
@@ -89,7 +89,7 @@ async function route() {
 
   const pageKey = `${parsed.lang}/${parsed.view}/${parsed.id ?? ''}`;
   if (pageKey === lastPageKey && parsed.anchor) {
-    scrollToAnchor(parsed.anchor);
+    scrollToAnchor(parsed.anchor, true);
     return;
   }
   lastPageKey = pageKey;

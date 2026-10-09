@@ -1,0 +1,154 @@
+{
+  "steps": [
+    {
+      "id": "internet",
+      "title": { "ru": "Как работает интернет", "en": "How the internet works", "pl": "Jak działa internet" },
+      "desc": { "ru": "HTTP, DNS, хостинг и браузер — фундамент веба.", "en": "HTTP, DNS, hosting and the browser — the foundation of the web.", "pl": "HTTP, DNS, hosting i przeglądarka — fundament sieci." },
+      "nodes": [
+        { "title": { "ru": "HTTP и HTTPS", "en": "HTTP and HTTPS", "pl": "HTTP i HTTPS" }, "to": "page/career/internet" },
+        { "title": { "ru": "DNS и домены", "en": "DNS and domains", "pl": "DNS i domeny" }, "to": "page/career/internet" },
+        { "title": { "ru": "Linux и терминал", "en": "Linux and the terminal", "pl": "Linux i terminal" }, "to": "page/career/internet" }
+      ]
+    },
+    {
+      "id": "language",
+      "title": { "ru": "Язык программирования", "en": "A programming language", "pl": "Język programowania" },
+      "desc": { "ru": "Ваш выбор — Java. Пройдите курс и Java Roadmap.", "en": "Your choice is Java. Complete the course and the Java Roadmap.", "pl": "Twój wybór to Java. Przejdź kurs i Java Roadmap." },
+      "nodes": [
+        { "title": { "ru": "Java (этот курс)", "en": "Java (this course)", "pl": "Java (ten kurs)" }, "to": "lessons/j1-setup" },
+        { "title": { "ru": "Kotlin", "en": "Kotlin", "pl": "Kotlin" }, "to": "page/career/stack", "optional": true }
+      ]
+    },
+    {
+      "id": "git",
+      "title": { "ru": "Системы контроля версий", "en": "Version control", "pl": "Systemy kontroli wersji" },
+      "nodes": [
+        { "title": { "ru": "Git", "en": "Git", "pl": "Git" }, "to": "page/career/git" },
+        { "title": { "ru": "GitHub / GitLab", "en": "GitHub / GitLab", "pl": "GitHub / GitLab" }, "to": "page/career/git" }
+      ]
+    },
+    {
+      "id": "rdbms",
+      "title": { "ru": "Реляционные базы данных", "en": "Relational databases", "pl": "Relacyjne bazy danych" },
+      "nodes": [
+        { "title": { "ru": "PostgreSQL", "en": "PostgreSQL", "pl": "PostgreSQL" }, "to": "page/career/databases" },
+        { "title": { "ru": "SQL, индексы, транзакции", "en": "SQL, indexes, transactions", "pl": "SQL, indeksy, transakcje" }, "to": "page/career/databases" },
+        { "title": { "ru": "JDBC, JPA, Spring Data", "en": "JDBC, JPA, Spring Data", "pl": "JDBC, JPA, Spring Data" }, "to": "extra/database-access" },
+        { "title": { "ru": "MySQL, Oracle, MS SQL", "en": "MySQL, Oracle, MS SQL", "pl": "MySQL, Oracle, MS SQL" }, "to": "page/career/databases", "optional": true }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": { "ru": "API", "en": "APIs", "pl": "API" },
+      "nodes": [
+        { "title": { "ru": "REST и JSON", "en": "REST and JSON", "pl": "REST i JSON" }, "to": "page/career/apis" },
+        { "title": { "ru": "OpenAPI", "en": "OpenAPI", "pl": "OpenAPI" }, "to": "page/career/apis" },
+        { "title": { "ru": "Spring Web", "en": "Spring Web", "pl": "Spring Web" }, "to": "extra/web-frameworks" },
+        { "title": { "ru": "gRPC", "en": "gRPC", "pl": "gRPC" }, "to": "page/career/apis", "optional": true },
+        { "title": { "ru": "GraphQL", "en": "GraphQL", "pl": "GraphQL" }, "to": "page/career/apis", "optional": true }
+      ]
+    },
+    {
+      "id": "auth",
+      "title": { "ru": "Аутентификация и безопасность", "en": "Authentication and security", "pl": "Uwierzytelnianie i bezpieczeństwo" },
+      "nodes": [
+        { "title": { "ru": "JWT, OAuth 2.0, OIDC", "en": "JWT, OAuth 2.0, OIDC", "pl": "JWT, OAuth 2.0, OIDC" }, "to": "page/career/security" },
+        { "title": { "ru": "Spring Security", "en": "Spring Security", "pl": "Spring Security" }, "to": "page/career/security" },
+        { "title": { "ru": "OWASP Top 10", "en": "OWASP Top 10", "pl": "OWASP Top 10" }, "to": "page/career/security" },
+        { "title": { "ru": "Хеширование паролей", "en": "Password hashing", "pl": "Haszowanie haseł" }, "to": "extra/cryptography" }
+      ]
+    },
+    {
+      "id": "caching",
+      "title": { "ru": "Кеширование", "en": "Caching", "pl": "Cache'owanie" },
+      "nodes": [
+        { "title": { "ru": "Redis", "en": "Redis", "pl": "Redis" }, "to": "page/career/caching" },
+        { "title": { "ru": "Spring Cache, Caffeine", "en": "Spring Cache, Caffeine", "pl": "Spring Cache, Caffeine" }, "to": "page/career/caching" },
+        { "title": { "ru": "CDN и HTTP-кеш", "en": "CDN and HTTP caching", "pl": "CDN i cache HTTP" }, "to": "page/career/caching", "optional": true }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": { "ru": "Тестирование", "en": "Testing", "pl": "Testowanie" },
+      "nodes": [
+        { "title": { "ru": "Модульные и интеграционные тесты", "en": "Unit and integration tests", "pl": "Testy jednostkowe i integracyjne" }, "to": "extra/testing" },
+        { "title": { "ru": "Testcontainers", "en": "Testcontainers", "pl": "Testcontainers" }, "to": "extra/testing" }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": { "ru": "Контейнеры и CI/CD", "en": "Containers and CI/CD", "pl": "Kontenery i CI/CD" },
+      "nodes": [
+        { "title": { "ru": "Docker", "en": "Docker", "pl": "Docker" }, "to": "page/career/containers" },
+        { "title": { "ru": "Kubernetes", "en": "Kubernetes", "pl": "Kubernetes" }, "to": "page/career/containers" },
+        { "title": { "ru": "CI/CD: GitHub Actions, GitLab CI", "en": "CI/CD: GitHub Actions, GitLab CI", "pl": "CI/CD: GitHub Actions, GitLab CI" }, "to": "page/career/cicd" },
+        { "title": { "ru": "Nginx, веб-серверы", "en": "Nginx, web servers", "pl": "Nginx, serwery WWW" }, "to": "page/career/containers", "optional": true }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": { "ru": "Архитектура", "en": "Architecture", "pl": "Architektura" },
+      "nodes": [
+        { "title": { "ru": "Монолит и микросервисы", "en": "Monolith and microservices", "pl": "Monolit i mikroserwisy" }, "to": "page/career/architecture" },
+        { "title": { "ru": "Паттерны проектирования", "en": "Design patterns", "pl": "Wzorce projektowe" }, "to": "page/career/architecture" },
+        { "title": { "ru": "DDD, CQRS, Event Sourcing", "en": "DDD, CQRS, Event Sourcing", "pl": "DDD, CQRS, Event Sourcing" }, "to": "page/career/architecture", "optional": true }
+      ]
+    },
+    {
+      "id": "messaging",
+      "title": { "ru": "Брокеры сообщений", "en": "Message brokers", "pl": "Brokery komunikatów" },
+      "nodes": [
+        { "title": { "ru": "Apache Kafka", "en": "Apache Kafka", "pl": "Apache Kafka" }, "to": "page/career/messaging" },
+        { "title": { "ru": "RabbitMQ", "en": "RabbitMQ", "pl": "RabbitMQ" }, "to": "page/career/messaging" }
+      ]
+    },
+    {
+      "id": "nosql",
+      "title": { "ru": "NoSQL", "en": "NoSQL", "pl": "NoSQL" },
+      "nodes": [
+        { "title": { "ru": "MongoDB", "en": "MongoDB", "pl": "MongoDB" }, "to": "page/career/nosql" },
+        { "title": { "ru": "Elasticsearch / OpenSearch", "en": "Elasticsearch / OpenSearch", "pl": "Elasticsearch / OpenSearch" }, "to": "page/career/nosql", "optional": true },
+        { "title": { "ru": "Cassandra", "en": "Cassandra", "pl": "Cassandra" }, "to": "page/career/nosql", "optional": true }
+      ]
+    },
+    {
+      "id": "observability",
+      "title": { "ru": "Наблюдаемость и масштабирование", "en": "Observability and scaling", "pl": "Obserwowalność i skalowanie" },
+      "nodes": [
+        { "title": { "ru": "Логи", "en": "Logs", "pl": "Logi" }, "to": "extra/logging" },
+        { "title": { "ru": "Метрики: Prometheus, Grafana", "en": "Metrics: Prometheus, Grafana", "pl": "Metryki: Prometheus, Grafana" }, "to": "page/career/observability" },
+        { "title": { "ru": "Трейсинг: OpenTelemetry", "en": "Tracing: OpenTelemetry", "pl": "Tracing: OpenTelemetry" }, "to": "page/career/observability" },
+        { "title": { "ru": "Масштабирование и отказоустойчивость", "en": "Scaling and resilience", "pl": "Skalowanie i odporność" }, "to": "page/career/observability" }
+      ]
+    },
+    {
+      "id": "cloud",
+      "title": { "ru": "Облака", "en": "Cloud", "pl": "Chmura" },
+      "nodes": [
+        { "title": { "ru": "AWS", "en": "AWS", "pl": "AWS" }, "to": "page/career/cloud" },
+        { "title": { "ru": "Microsoft Azure", "en": "Microsoft Azure", "pl": "Microsoft Azure" }, "to": "page/career/cloud" },
+        { "title": { "ru": "Google Cloud", "en": "Google Cloud", "pl": "Google Cloud" }, "to": "page/career/cloud", "optional": true }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": { "ru": "ИИ в бэкенде", "en": "AI in the backend", "pl": "AI w backendzie" },
+      "nodes": [
+        { "title": { "ru": "ИИ-ассистенты", "en": "AI assistants", "pl": "Asystenci AI" }, "to": "page/ai/assistants" },
+        { "title": { "ru": "Spring AI, LangChain4j", "en": "Spring AI, LangChain4j", "pl": "Spring AI, LangChain4j" }, "to": "page/ai/stack" },
+        { "title": { "ru": "RAG и векторные БД", "en": "RAG and vector databases", "pl": "RAG i wektorowe bazy danych" }, "to": "page/ai/stack", "optional": true }
+      ]
+    },
+    {
+      "id": "job",
+      "title": { "ru": "Поиск работы", "en": "Getting a job", "pl": "Szukanie pracy" },
+      "nodes": [
+        { "title": { "ru": "Актуальный стек 2026", "en": "The 2026 stack", "pl": "Aktualny stos 2026" }, "to": "page/career/stack" },
+        { "title": { "ru": "Европа и удалёнка", "en": "Europe and remote", "pl": "Europa i praca zdalna" }, "to": "page/career/europe" },
+        { "title": { "ru": "Варшава и Польша", "en": "Warsaw and Poland", "pl": "Warszawa i Polska" }, "to": "page/career/warsaw" },
+        { "title": { "ru": "Где искать вакансии", "en": "Where to find jobs", "pl": "Gdzie szukać ofert" }, "to": "page/career/jobs" },
+        { "title": { "ru": "Уровни и требования", "en": "Levels and requirements", "pl": "Poziomy i wymagania" }, "to": "page/levels" }
+      ]
+    }
+  ]
+}

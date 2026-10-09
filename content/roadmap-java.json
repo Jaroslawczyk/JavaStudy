@@ -1,0 +1,194 @@
+{
+  "steps": [
+    {
+      "id": "setup",
+      "title": { "ru": "Инструменты и окружение", "en": "Tools and environment", "pl": "Narzędzia i środowisko" },
+      "desc": { "ru": "IDE, JDK и первая программа.", "en": "An IDE, a JDK and your first program.", "pl": "IDE, JDK i pierwszy program." },
+      "nodes": [
+        { "title": { "ru": "IDE", "en": "IDE", "pl": "IDE" }, "to": "tools/ide" },
+        { "title": { "ru": "Плагины", "en": "Plugins", "pl": "Wtyczki" }, "to": "tools/plugins", "optional": true },
+        { "title": { "ru": "JDK и версии Java", "en": "JDK and Java versions", "pl": "JDK i wersje Javy" }, "to": "tools/jdk" },
+        { "title": { "ru": "Установка", "en": "Installation", "pl": "Instalacja" }, "to": "lessons/j1-setup" },
+        { "title": { "ru": "Жизненный цикл программы", "en": "Lifecycle of a program", "pl": "Cykl życia programu" }, "to": "lessons/j2-jvm-jre-jdk" }
+      ]
+    },
+    {
+      "id": "basics",
+      "title": { "ru": "Основы языка", "en": "Language basics", "pl": "Podstawy języka" },
+      "desc": { "ru": "Синтаксис, типы, условия, циклы, массивы, строки.", "en": "Syntax, types, conditions, loops, arrays, strings.", "pl": "Składnia, typy, warunki, pętle, tablice, napisy." },
+      "nodes": [
+        { "title": { "ru": "Базовый синтаксис", "en": "Basic syntax", "pl": "Podstawowa składnia" }, "to": "lessons/j1-hello-world" },
+        { "title": { "ru": "Переменные и область видимости", "en": "Variables and scopes", "pl": "Zmienne i zasięg" }, "to": "lessons/j1-variables" },
+        { "title": { "ru": "Типы данных", "en": "Data types", "pl": "Typy danych" }, "to": "lessons/j1-integer-types" },
+        { "title": { "ru": "Приведение типов и Math", "en": "Type casting and Math", "pl": "Rzutowanie typów i Math" }, "to": "lessons/j1-float-char-boolean" },
+        { "title": { "ru": "Условия", "en": "Conditionals", "pl": "Instrukcje warunkowe" }, "to": "lessons/j1-if-else" },
+        { "title": { "ru": "Циклы", "en": "Loops", "pl": "Pętle" }, "to": "lessons/j1-loops" },
+        { "title": { "ru": "Массивы", "en": "Arrays", "pl": "Tablice" }, "to": "lessons/j1-arrays" },
+        { "title": { "ru": "Строки и switch", "en": "Strings and switch", "pl": "Napisy i switch" }, "to": "lessons/j1-strings-switch" }
+      ]
+    },
+    {
+      "id": "oop",
+      "title": { "ru": "Объектно-ориентированное программирование", "en": "Object-oriented programming", "pl": "Programowanie obiektowe" },
+      "desc": { "ru": "Классы, объекты и принципы ООП.", "en": "Classes, objects and OOP principles.", "pl": "Klasy, obiekty i zasady OOP." },
+      "nodes": [
+        { "title": { "ru": "Классы и объекты", "en": "Classes and objects", "pl": "Klasy i obiekty" }, "to": "lessons/j1-classes-objects" },
+        { "title": { "ru": "Атрибуты и методы", "en": "Attributes and methods", "pl": "Atrybuty i metody" }, "to": "lessons/j1-methods" },
+        { "title": { "ru": "Конструкторы", "en": "Constructors", "pl": "Konstruktory" }, "to": "lessons/j1-constructors" },
+        { "title": { "ru": "Перегрузка методов", "en": "Method overloading", "pl": "Przeciążanie metod" }, "to": "lessons/j1-overloading" },
+        { "title": { "ru": "Передача по значению", "en": "Pass by value", "pl": "Przekazywanie przez wartość" }, "to": "extra/pass-by-value" },
+        { "title": { "ru": "Модификаторы доступа", "en": "Access specifiers", "pl": "Modyfikatory dostępu" }, "to": "lessons/j1-access-modifiers" },
+        { "title": { "ru": "static и final", "en": "static and final", "pl": "static i final" }, "to": "lessons/j1-static-final" },
+        { "title": { "ru": "Наследование", "en": "Inheritance", "pl": "Dziedziczenie" }, "to": "lessons/j1-inheritance" },
+        { "title": { "ru": "Абстракция и полиморфизм", "en": "Abstraction and polymorphism", "pl": "Abstrakcja i polimorfizm" }, "to": "lessons/j1-abstract-final" },
+        { "title": { "ru": "Интерфейсы", "en": "Interfaces", "pl": "Interfejsy" }, "to": "lessons/j1-interfaces" },
+        { "title": { "ru": "Инкапсуляция и SOLID", "en": "Encapsulation and SOLID", "pl": "Hermetyzacja i SOLID" }, "to": "lessons/j2-oop-principles" },
+        { "title": { "ru": "Статическое и динамическое связывание", "en": "Static vs dynamic binding", "pl": "Wiązanie statyczne i dynamiczne" }, "to": "extra/binding" },
+        { "title": { "ru": "Вложенные классы", "en": "Nested classes", "pl": "Klasy zagnieżdżone" }, "to": "extra/nested-classes" },
+        { "title": { "ru": "Блоки инициализации", "en": "Initializer blocks", "pl": "Bloki inicjalizacyjne" }, "to": "extra/initializer-blocks" },
+        { "title": { "ru": "Жизненный цикл объекта", "en": "Object lifecycle", "pl": "Cykl życia obiektu" }, "to": "lessons/j1-memory-equals-hashcode" },
+        { "title": { "ru": "Перечисления", "en": "Enums", "pl": "Enumy" }, "to": "extra/enums" },
+        { "title": { "ru": "Записи (records)", "en": "Records", "pl": "Rekordy" }, "to": "extra/records" },
+        { "title": { "ru": "Цепочки вызовов", "en": "Method chaining", "pl": "Łańcuchy wywołań" }, "to": "extra/method-chaining", "optional": true }
+      ]
+    },
+    {
+      "id": "exceptions",
+      "title": { "ru": "Исключения", "en": "Exception handling", "pl": "Obsługa wyjątków" },
+      "nodes": [
+        { "title": { "ru": "try / catch / finally", "en": "try / catch / finally", "pl": "try / catch / finally" }, "to": "lessons/j1-exceptions" },
+        { "title": { "ru": "Checked и unchecked", "en": "Checked and unchecked", "pl": "Checked i unchecked" }, "to": "lessons/j2-exceptions-finalize" },
+        { "title": { "ru": "try-with-resources", "en": "try-with-resources", "pl": "try-with-resources" }, "to": "lessons/j2-input-stream" }
+      ]
+    },
+    {
+      "id": "collections",
+      "title": { "ru": "Коллекции", "en": "Collections", "pl": "Kolekcje" },
+      "desc": { "ru": "Списки, множества, map, очереди — и как они устроены внутри.", "en": "Lists, sets, maps, queues — and how they work inside.", "pl": "Listy, zbiory, mapy, kolejki — i jak działają od środka." },
+      "nodes": [
+        { "title": { "ru": "Обзор коллекций", "en": "Collections overview", "pl": "Przegląd kolekcji" }, "to": "lessons/j1-collections" },
+        { "title": { "ru": "Array vs ArrayList", "en": "Array vs ArrayList", "pl": "Array vs ArrayList" }, "to": "lessons/j1-arraylist-internals" },
+        { "title": { "ru": "LinkedList", "en": "LinkedList", "pl": "LinkedList" }, "to": "lessons/j1-linkedlist" },
+        { "title": { "ru": "Set", "en": "Set", "pl": "Set" }, "to": "lessons/j1-hashset" },
+        { "title": { "ru": "Map", "en": "Map", "pl": "Map" }, "to": "lessons/j1-hashmap" },
+        { "title": { "ru": "Queue, Deque, Stack", "en": "Queue, Deque, Stack", "pl": "Queue, Deque, Stack" }, "to": "lessons/j1-maps-queue" },
+        { "title": { "ru": "Iterator", "en": "Iterator", "pl": "Iterator" }, "to": "lessons/j1-iterator" },
+        { "title": { "ru": "Comparable и Comparator", "en": "Comparable and Comparator", "pl": "Comparable i Comparator" }, "to": "lessons/j1-treeset" }
+      ]
+    },
+    {
+      "id": "generics",
+      "title": { "ru": "Дженерики", "en": "Generics", "pl": "Generyki" },
+      "nodes": [
+        { "title": { "ru": "Обобщённые типы", "en": "Generic types", "pl": "Typy generyczne" }, "to": "lessons/j2-generics" },
+        { "title": { "ru": "Ограничения и wildcard", "en": "Bounds and wildcards", "pl": "Ograniczenia i wildcard" }, "to": "lessons/j2-bounded-wildcards" },
+        { "title": { "ru": "Обобщённые методы и PECS", "en": "Generic methods and PECS", "pl": "Metody generyczne i PECS" }, "to": "lessons/j2-generic-methods" }
+      ]
+    },
+    {
+      "id": "functional",
+      "title": { "ru": "Функциональный стиль", "en": "Functional style", "pl": "Styl funkcyjny" },
+      "nodes": [
+        { "title": { "ru": "Лямбда-выражения", "en": "Lambda expressions", "pl": "Wyrażenia lambda" }, "to": "lessons/j2-lambdas" },
+        { "title": { "ru": "Функциональные интерфейсы и композиция", "en": "Functional interfaces and composition", "pl": "Interfejsy funkcyjne i złożenia" }, "to": "extra/functional" },
+        { "title": { "ru": "Stream API", "en": "Stream API", "pl": "Stream API" }, "to": "lessons/j2-stream-api" },
+        { "title": { "ru": "Optional", "en": "Optional", "pl": "Optional" }, "to": "lessons/j2-optional-parallel" },
+        { "title": { "ru": "Аннотации", "en": "Annotations", "pl": "Adnotacje" }, "to": "extra/annotations" },
+        { "title": { "ru": "Модули", "en": "Modules", "pl": "Moduły" }, "to": "extra/modules", "optional": true }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "title": { "ru": "Многопоточность", "en": "Concurrency", "pl": "Wielowątkowość" },
+      "desc": { "ru": "Одна из главных тем собеседований.", "en": "One of the top interview topics.", "pl": "Jeden z głównych tematów rozmów rekrutacyjnych." },
+      "nodes": [
+        { "title": { "ru": "Потоки", "en": "Threads", "pl": "Wątki" }, "to": "lessons/j2-threads-basics" },
+        { "title": { "ru": "Синхронизация", "en": "Synchronization", "pl": "Synchronizacja" }, "to": "lessons/j2-synchronized" },
+        { "title": { "ru": "volatile и атомики", "en": "volatile and atomics", "pl": "volatile i atomiki" }, "to": "lessons/j2-atomic-volatile" },
+        { "title": { "ru": "Модель памяти Java", "en": "Java Memory Model", "pl": "Model pamięci Javy" }, "to": "extra/jmm-volatile" },
+        { "title": { "ru": "ExecutorService", "en": "ExecutorService", "pl": "ExecutorService" }, "to": "lessons/j2-executor-service" },
+        { "title": { "ru": "Future и CompletableFuture", "en": "Future and CompletableFuture", "pl": "Future i CompletableFuture" }, "to": "lessons/j2-callable-future" },
+        { "title": { "ru": "Потокобезопасные коллекции", "en": "Concurrent collections", "pl": "Kolekcje współbieżne" }, "to": "lessons/j2-concurrent-collections" },
+        { "title": { "ru": "Виртуальные потоки", "en": "Virtual threads", "pl": "Wątki wirtualne" }, "to": "extra/virtual-threads" }
+      ]
+    },
+    {
+      "id": "io",
+      "title": { "ru": "Ввод-вывод и стандартная библиотека", "en": "I/O and the standard library", "pl": "Wejście-wyjście i biblioteka standardowa" },
+      "nodes": [
+        { "title": { "ru": "Работа с файлами", "en": "File operations", "pl": "Operacje na plikach" }, "to": "lessons/j2-file" },
+        { "title": { "ru": "Потоки ввода-вывода", "en": "I/O operations", "pl": "Strumienie wejścia-wyjścia" }, "to": "lessons/j2-strings-readers" },
+        { "title": { "ru": "Сериализация", "en": "Serialization", "pl": "Serializacja" }, "to": "lessons/j2-serialization" },
+        { "title": { "ru": "Дата и время", "en": "Date and time", "pl": "Data i czas" }, "to": "extra/date-time" },
+        { "title": { "ru": "Регулярные выражения", "en": "Regular expressions", "pl": "Wyrażenia regularne" }, "to": "extra/regex" },
+        { "title": { "ru": "Сеть", "en": "Networking", "pl": "Sieć" }, "to": "extra/networking" },
+        { "title": { "ru": "Криптография", "en": "Cryptography", "pl": "Kryptografia" }, "to": "extra/cryptography", "optional": true }
+      ]
+    },
+    {
+      "id": "build",
+      "title": { "ru": "Сборка проекта", "en": "Build tools", "pl": "Narzędzia budowania" },
+      "nodes": [
+        { "title": { "ru": "Maven", "en": "Maven", "pl": "Maven" }, "to": "extra/build-tools" },
+        { "title": { "ru": "Gradle", "en": "Gradle", "pl": "Gradle" }, "to": "extra/build-tools" },
+        { "title": { "ru": "Bazel", "en": "Bazel", "pl": "Bazel" }, "to": "extra/build-tools", "optional": true },
+        { "title": { "ru": "Git и экосистема", "en": "Git and the ecosystem", "pl": "Git i ekosystem" }, "to": "tools/ecosystem" }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "title": { "ru": "DI и веб-фреймворки", "en": "DI and web frameworks", "pl": "DI i frameworki webowe" },
+      "nodes": [
+        { "title": { "ru": "Внедрение зависимостей", "en": "Dependency injection", "pl": "Wstrzykiwanie zależności" }, "to": "extra/dependency-injection" },
+        { "title": { "ru": "Spring / Spring Boot", "en": "Spring / Spring Boot", "pl": "Spring / Spring Boot" }, "to": "extra/web-frameworks" },
+        { "title": { "ru": "Quarkus", "en": "Quarkus", "pl": "Quarkus" }, "to": "extra/web-frameworks", "optional": true },
+        { "title": { "ru": "Javalin", "en": "Javalin", "pl": "Javalin" }, "to": "extra/web-frameworks", "optional": true },
+        { "title": { "ru": "Play Framework", "en": "Play Framework", "pl": "Play Framework" }, "to": "extra/web-frameworks", "optional": true }
+      ]
+    },
+    {
+      "id": "database",
+      "title": { "ru": "Доступ к базам данных", "en": "Database access", "pl": "Dostęp do baz danych" },
+      "nodes": [
+        { "title": { "ru": "JDBC", "en": "JDBC", "pl": "JDBC" }, "to": "extra/database-access" },
+        { "title": { "ru": "Hibernate / JPA", "en": "Hibernate / JPA", "pl": "Hibernate / JPA" }, "to": "extra/database-access" },
+        { "title": { "ru": "Spring Data JPA", "en": "Spring Data JPA", "pl": "Spring Data JPA" }, "to": "extra/database-access" },
+        { "title": { "ru": "EBean, jOOQ", "en": "EBean, jOOQ", "pl": "EBean, jOOQ" }, "to": "extra/database-access", "optional": true }
+      ]
+    },
+    {
+      "id": "logging",
+      "title": { "ru": "Логирование", "en": "Logging", "pl": "Logowanie" },
+      "nodes": [
+        { "title": { "ru": "SLF4J", "en": "SLF4J", "pl": "SLF4J" }, "to": "extra/logging" },
+        { "title": { "ru": "Logback", "en": "Logback", "pl": "Logback" }, "to": "extra/logging" },
+        { "title": { "ru": "Log4j 2", "en": "Log4j 2", "pl": "Log4j 2" }, "to": "extra/logging", "optional": true },
+        { "title": { "ru": "TinyLog", "en": "TinyLog", "pl": "TinyLog" }, "to": "extra/logging", "optional": true }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": { "ru": "Тестирование", "en": "Testing", "pl": "Testowanie" },
+      "nodes": [
+        { "title": { "ru": "JUnit", "en": "JUnit", "pl": "JUnit" }, "to": "lessons/j1-junit" },
+        { "title": { "ru": "Mockito", "en": "Mockito", "pl": "Mockito" }, "to": "extra/testing" },
+        { "title": { "ru": "Testcontainers", "en": "Testcontainers", "pl": "Testcontainers" }, "to": "extra/testing" },
+        { "title": { "ru": "REST Assured", "en": "REST Assured", "pl": "REST Assured" }, "to": "extra/testing" },
+        { "title": { "ru": "TestNG", "en": "TestNG", "pl": "TestNG" }, "to": "extra/testing", "optional": true },
+        { "title": { "ru": "JMeter / Gatling", "en": "JMeter / Gatling", "pl": "JMeter / Gatling" }, "to": "extra/testing", "optional": true },
+        { "title": { "ru": "Cucumber-JVM", "en": "Cucumber-JVM", "pl": "Cucumber-JVM" }, "to": "extra/testing", "optional": true }
+      ]
+    },
+    {
+      "id": "next",
+      "title": { "ru": "Что дальше", "en": "What's next", "pl": "Co dalej" },
+      "desc": { "ru": "Собеседование, backend-стек и работа с ИИ.", "en": "Interviews, the backend stack and working with AI.", "pl": "Rozmowa rekrutacyjna, stos backendowy i praca z AI." },
+      "nodes": [
+        { "title": { "ru": "Итоговое собеседование", "en": "Final interview", "pl": "Rozmowa końcowa" }, "to": "lessons/j2-final-interview" },
+        { "title": { "ru": "Backend Roadmap и стек", "en": "Backend roadmap and stack", "pl": "Backend Roadmap i stos" }, "to": "page/career" },
+        { "title": { "ru": "Уровни и что доучить", "en": "Levels and what to learn next", "pl": "Poziomy i czego się douczyć" }, "to": "page/levels" },
+        { "title": { "ru": "ИИ в работе разработчика", "en": "AI in a developer's work", "pl": "AI w pracy programisty" }, "to": "page/ai" }
+      ]
+    }
+  ]
+}
