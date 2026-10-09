@@ -29,7 +29,7 @@ function renderChrome(route) {
   const lang = getLang();
   slots.nav.innerHTML = NAV.map((n) => {
     const active = n.match(route);
-    return `<li class="nav__item"><a class="nav__link${active ? ' nav__link--active' : ''}" href="${n.href(lang)}" ${active ? 'aria-current="page"' : ''}><span class="nav__icon" aria-hidden="true">${n.icon}</span>${esc(t(`nav.${n.key}`))}</a></li>`;
+    return `<li class="nav__item"><a class="nav__link${active ? ' nav__link--active' : ''}" href="${n.href(lang)}" ${active ? 'aria-current="page"' : ''}><span class="nav__icon" aria-hidden="true">${n.icon}</span><span class="nav__label">${esc(t(`nav.${n.key}`))}</span></a></li>`;
   }).join('');
 
   if (renderedLang !== lang) {

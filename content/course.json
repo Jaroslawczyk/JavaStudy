@@ -3,7 +3,7 @@
     {
       "id": "tools",
       "icon": "🧰",
-      "title": { "ru": "Инструменты", "en": "Tools", "pl": "Narzędzia" },
+      "title": { "ru": "Инструменты разработчика", "en": "Developer tools", "pl": "Narzędzia programisty" },
       "desc": {
         "ru": "IDE, плагины, JDK, сборщики, Git и всё, что нужно до первой строчки кода.",
         "en": "IDEs, plugins, JDKs, build tools, Git and everything you need before the first line of code.",
@@ -19,7 +19,7 @@
     {
       "id": "basics",
       "icon": "☕",
-      "title": { "ru": "Часть 1. Основы Java", "en": "Part 1. Java basics", "pl": "Część 1. Podstawy Javy" },
+      "title": { "ru": "Основы Java", "en": "Java basics", "pl": "Podstawy Javy" },
       "desc": {
         "ru": "Установка, переменные, типы данных, условия, циклы, массивы, строки.",
         "en": "Setup, variables, data types, conditions, loops, arrays, strings.",
@@ -40,7 +40,7 @@
     {
       "id": "oop",
       "icon": "🧱",
-      "title": { "ru": "Часть 1. ООП", "en": "Part 1. OOP", "pl": "Część 1. OOP" },
+      "title": { "ru": "Классы и объекты", "en": "Classes and objects", "pl": "Klasy i obiekty" },
       "desc": {
         "ru": "Классы и объекты, методы, конструкторы, перегрузка, инкапсуляция, static, наследование, полиморфизм, интерфейсы.",
         "en": "Classes and objects, methods, constructors, overloading, encapsulation, static, inheritance, polymorphism, interfaces.",
@@ -59,7 +59,7 @@
     {
       "id": "collections1",
       "icon": "📦",
-      "title": { "ru": "Часть 1. Коллекции", "en": "Part 1. Collections", "pl": "Część 1. Kolekcje" },
+      "title": { "ru": "Знакомство с коллекциями", "en": "Getting started with collections", "pl": "Wprowadzenie do kolekcji" },
       "desc": {
         "ru": "Своя коллекция, обёртки и парсинг строк, ArrayList, HashSet, TreeSet и HashMap.",
         "en": "Your own collection, wrappers and string parsing, ArrayList, HashSet, TreeSet and HashMap.",
@@ -74,7 +74,7 @@
     {
       "id": "oop2",
       "icon": "🧬",
-      "title": { "ru": "Часть 1. Наследование, интерфейсы, исключения", "en": "Part 1. Inheritance, interfaces, exceptions", "pl": "Część 1. Dziedziczenie, interfejsy, wyjątki" },
+      "title": { "ru": "Наследование, интерфейсы, исключения", "en": "Inheritance, interfaces, exceptions", "pl": "Dziedziczenie, interfejsy, wyjątki" },
       "desc": {
         "ru": "extends и super, abstract и final, полиморфизм, интерфейсы, анонимные классы, try-catch.",
         "en": "extends and super, abstract and final, polymorphism, interfaces, anonymous classes, try-catch.",
@@ -93,7 +93,7 @@
     {
       "id": "level2",
       "icon": "🎯",
-      "title": { "ru": "Уровень 2. Тесты и коллекции изнутри", "en": "Level 2. Tests and collections inside out", "pl": "Poziom 2. Testy i kolekcje od środka" },
+      "title": { "ru": "Тесты и коллекции изнутри", "en": "Tests and collections inside out", "pl": "Testy i kolekcje od środka" },
       "desc": {
         "ru": "JUnit, TDD, свои реализации ArrayList, LinkedList, HashSet, HashMap, Big O и вопросы с собеседований.",
         "en": "JUnit, TDD, your own ArrayList, LinkedList, HashSet, HashMap, Big O and interview questions.",
@@ -115,7 +115,7 @@
     {
       "id": "generics",
       "icon": "🔣",
-      "title": { "ru": "Часть 2. Дженерики", "en": "Part 2. Generics", "pl": "Część 2. Typy generyczne" },
+      "title": { "ru": "Дженерики", "en": "Generics", "pl": "Typy generyczne" },
       "desc": {
         "ru": "Параметризованные типы, стирание типов, ограничения, wildcard и правило PECS.",
         "en": "Parameterised types, type erasure, bounds, wildcards and the PECS rule.",
@@ -131,7 +131,7 @@
     {
       "id": "concurrency",
       "icon": "🧵",
-      "title": { "ru": "Часть 2. Многопоточность", "en": "Part 2. Concurrency", "pl": "Część 2. Wielowątkowość" },
+      "title": { "ru": "Многопоточность", "en": "Concurrency", "pl": "Wielowątkowość" },
       "desc": {
         "ru": "Потоки, синхронизация, атомики, volatile, пулы потоков, Future, wait/notify, deadlock, concurrent-коллекции и синхронизаторы.",
         "en": "Threads, synchronisation, atomics, volatile, thread pools, Future, wait/notify, deadlock, concurrent collections and synchronisers.",
@@ -156,7 +156,7 @@
     {
       "id": "streams",
       "icon": "🌊",
-      "title": { "ru": "Часть 2. Лямбды и Stream API", "en": "Part 2. Lambdas and the Stream API", "pl": "Część 2. Lambdy i Stream API" },
+      "title": { "ru": "Лямбды и Stream API", "en": "Lambdas and the Stream API", "pl": "Lambdy i Stream API" },
       "desc": {
         "ru": "Лямбда-выражения, функциональные интерфейсы, filter/map/collect, Optional и параллельные стримы.",
         "en": "Lambda expressions, functional interfaces, filter/map/collect, Optional and parallel streams.",
@@ -173,7 +173,7 @@
     {
       "id": "io",
       "icon": "📁",
-      "title": { "ru": "Часть 2. Файлы и ввод-вывод", "en": "Part 2. Files and I/O", "pl": "Część 2. Pliki i wejście-wyjście" },
+      "title": { "ru": "Файлы и ввод-вывод", "en": "Files and I/O", "pl": "Pliki i wejście-wyjście" },
       "desc": {
         "ru": "File и NIO, потоки байтов и символов, кодировки, буферы, Scanner, RandomAccessFile и сериализация.",
         "en": "File and NIO, byte and character streams, encodings, buffers, Scanner, RandomAccessFile and serialisation.",
@@ -192,7 +192,7 @@
     {
       "id": "final",
       "icon": "🏁",
-      "title": { "ru": "Часть 2. Теория и итоговое собеседование", "en": "Part 2. Theory and the final interview", "pl": "Część 2. Teoria i rozmowa końcowa" },
+      "title": { "ru": "JVM, ООП и итоговое собеседование", "en": "JVM, OOP and the final interview", "pl": "JVM, OOP i rozmowa końcowa" },
       "desc": {
         "ru": "JVM, JRE и JDK, интерфейсы, исключения, finalize, принципы ООП и большое собеседование по всему курсу.",
         "en": "JVM, JRE and JDK, interfaces, exceptions, finalize, OOP principles and a big interview on the whole course.",
@@ -209,7 +209,7 @@
     {
       "id": "extra-lang",
       "icon": "🧩",
-      "title": { "ru": "Дополнительно: язык Java", "en": "Extra: the Java language", "pl": "Dodatkowo: język Java" },
+      "title": { "ru": "Язык Java: дополнительные темы", "en": "The Java language: extra topics", "pl": "Język Java: tematy dodatkowe" },
       "desc": {
         "ru": "Темы Roadmap, которых нет в видео: enum, records, вложенные классы, аннотации, модули, функциональный стиль, даты, регулярные выражения.",
         "en": "Roadmap topics the videos skip: enums, records, nested classes, annotations, modules, functional style, dates, regular expressions.",
@@ -233,7 +233,7 @@
     {
       "id": "extra-jvm",
       "icon": "⚙️",
-      "title": { "ru": "Дополнительно: память и потоки", "en": "Extra: memory and threads", "pl": "Dodatkowo: pamięć i wątki" },
+      "title": { "ru": "Память и виртуальные потоки", "en": "Memory and virtual threads", "pl": "Pamięć i wątki wirtualne" },
       "desc": {
         "ru": "Модель памяти Java и виртуальные потоки — то, что спрашивают на Middle.",
         "en": "The Java Memory Model and virtual threads — what Middle interviews ask about.",
@@ -247,7 +247,7 @@
     {
       "id": "extra-eco",
       "icon": "🌐",
-      "title": { "ru": "Дополнительно: бэкенд-экосистема", "en": "Extra: the backend ecosystem", "pl": "Dodatkowo: ekosystem backendu" },
+      "title": { "ru": "Бэкенд-экосистема", "en": "The backend ecosystem", "pl": "Ekosystem backendu" },
       "desc": {
         "ru": "Сеть, криптография, сборка, DI, веб-фреймворки, базы данных, логирование и тестирование.",
         "en": "Networking, cryptography, build tools, DI, web frameworks, databases, logging and testing.",

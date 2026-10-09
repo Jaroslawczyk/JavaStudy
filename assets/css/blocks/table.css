@@ -32,3 +32,30 @@
 .table__el tbody tr:hover {
   background: var(--color-surface-2);
 }
+
+.table {
+  scrollbar-width: thin;
+}
+
+.table__el code {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 639px) {
+  .table__el {
+    font-size: 0.84rem;
+  }
+
+  .table__el th,
+  .table__el td {
+    padding: 0.5rem 0.55rem;
+  }
+
+  .table__el th {
+    white-space: normal;
+  }
+
+  .table__el td {
+    min-width: 6.5rem;
+  }
+}

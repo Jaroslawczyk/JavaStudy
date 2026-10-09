@@ -19,7 +19,7 @@ function matches(item) {
 function itemHTML(item) {
   const done = isDone(item.path);
   const active = item.path === activePath;
-  const status = done ? '✓' : item.no ? item.no : '•';
+  const status = done ? '✓' : item.no;
   const cls = ['sidebar__link', active && 'sidebar__link--active', done && 'sidebar__link--done'].filter(Boolean).join(' ');
   return `<li class="sidebar__item">
     <a class="${cls}" href="${buildHash(getLang(), item.kind, item.id)}" ${active ? 'aria-current="page"' : ''}>
@@ -41,7 +41,7 @@ function groupsHTML() {
       const open = query || openGroups.has(section.id);
       const done = countDone(section.items.map((i) => i.path));
       return `<details class="sidebar__group" data-group="${section.id}" ${open ? 'open' : ''}>
-        <summary class="sidebar__summary">${esc(pick(section.title))}<span class="sidebar__count">${done}/${section.items.length}</span></summary>
+        <summary class="sidebar__summary"><span class="sidebar__no" aria-hidden="true">${section.no}</span><span class="sidebar__group-title">${esc(pick(section.title))}</span><span class="sidebar__count">${done}/${section.items.length}</span></summary>
         <ul class="sidebar__list">${visible.map(itemHTML).join('')}</ul>
       </details>`;
     })

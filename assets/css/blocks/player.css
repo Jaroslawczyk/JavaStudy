@@ -2,7 +2,7 @@
 .player {
   position: fixed;
   right: var(--space-4);
-  bottom: var(--space-4);
+  bottom: calc(var(--space-4) + var(--tabbar-h, 0px));
   z-index: 50;
   width: min(440px, calc(100vw - 2 * var(--space-4)));
   overflow: hidden;
@@ -76,7 +76,7 @@
 @media (max-width: 639px) {
   .player {
     right: 0;
-    bottom: 0;
+    bottom: var(--tabbar-h, 0px);
     left: 0;
     width: 100%;
     border-radius: var(--radius) var(--radius) 0 0;

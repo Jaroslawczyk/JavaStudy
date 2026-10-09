@@ -7,12 +7,12 @@ let flat = [];
 export async function loadCourse() {
   data = await fetchJSON('content/course.json');
   flat = [];
-  let lessonNo = 0;
-  data.sections.forEach((section) => {
-    section.items.forEach((item) => {
+  data.sections.forEach((section, sectionIndex) => {
+    section.no = sectionIndex + 1;
+    section.items.forEach((item, itemIndex) => {
       item.section = section;
       item.path = `${item.kind}/${item.id}`;
-      if (item.kind === 'lessons') item.no = ++lessonNo;
+      item.no = `${section.no}.${itemIndex + 1}`;
       item.index = flat.length;
       flat.push(item);
     });

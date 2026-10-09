@@ -102,11 +102,7 @@ export async function renderArticle(main, { folder, id, item = null, videos }) {
   if (item) crumbs.push(`<li class="breadcrumbs__item">${esc(pick(item.section.title))}</li>`);
   crumbs.push(`<li class="breadcrumbs__item" aria-current="page">${esc(title)}</li>`);
 
-  const kicker = item
-    ? item.no
-      ? `${t('article.lesson')} ${item.no} · ${pick(item.section.title)}`
-      : pick(item.section.title)
-    : '';
+  const kicker = item ? `${item.no} · ${pick(item.section.title)}` : '';
 
   main.innerHTML = `<article class="article">
     <div class="article__main">

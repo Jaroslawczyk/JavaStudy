@@ -35,25 +35,45 @@
   padding: var(--space-2);
   border-radius: var(--radius-sm);
   color: var(--color-heading);
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
   cursor: pointer;
   list-style: none;
+}
+
+.sidebar__no {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.75rem;
+  height: 1.75rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--color-accent-soft);
+  color: var(--color-heading);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.sidebar__group-title {
+  flex: 1;
+  min-width: 0;
 }
 
 .sidebar__summary::-webkit-details-marker {
   display: none;
 }
 
-.sidebar__summary::before {
+.sidebar__summary::after {
   content: "▸";
+  flex: none;
   display: inline-block;
+  color: var(--color-text-muted);
   transition: transform var(--transition);
 }
 
-.sidebar__group[open] > .sidebar__summary::before {
+.sidebar__group[open] > .sidebar__summary::after {
   transform: rotate(90deg);
 }
 
@@ -62,11 +82,10 @@
 }
 
 .sidebar__count {
-  margin-left: auto;
+  flex: none;
   color: var(--color-text-muted);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 .sidebar__list {
@@ -102,10 +121,10 @@
 
 .sidebar__status {
   flex: none;
-  width: 1.4em;
+  min-width: 2.6em;
   color: var(--color-text-muted);
-  font-size: 0.8em;
-  text-align: center;
+  font-size: 0.78em;
+  font-variant-numeric: tabular-nums;
 }
 
 .sidebar__link--done .sidebar__status {
