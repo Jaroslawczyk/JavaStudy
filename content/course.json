@@ -205,6 +205,64 @@
         { "id": "j2-oop-principles", "kind": "lessons", "video": "j2", "start": "7:17:14", "end": "7:22:50", "title": { "ru": "Принципы ООП и SOLID", "en": "OOP principles and SOLID", "pl": "Zasady OOP i SOLID" } },
         { "id": "j2-final-interview", "kind": "lessons", "video": "j2", "start": "7:22:50", "end": "7:38:55", "title": { "ru": "Итоговое собеседование по курсу", "en": "Final course interview", "pl": "Końcowa rozmowa rekrutacyjna" } }
       ]
+    },
+    {
+      "id": "extra-lang",
+      "icon": "🧩",
+      "title": { "ru": "Дополнительно: язык Java", "en": "Extra: the Java language", "pl": "Dodatkowo: język Java" },
+      "desc": {
+        "ru": "Темы Roadmap, которых нет в видео: enum, records, вложенные классы, аннотации, модули, функциональный стиль, даты, регулярные выражения.",
+        "en": "Roadmap topics the videos skip: enums, records, nested classes, annotations, modules, functional style, dates, regular expressions.",
+        "pl": "Tematy z Roadmapy, których nie ma w wideo: enum, rekordy, klasy zagnieżdżone, adnotacje, moduły, styl funkcyjny, daty, wyrażenia regularne."
+      },
+      "items": [
+        { "id": "enums", "kind": "extra", "title": { "ru": "Перечисления (enum)", "en": "Enums", "pl": "Typy wyliczeniowe (enum)" } },
+        { "id": "records", "kind": "extra", "title": { "ru": "Записи (records)", "en": "Records", "pl": "Rekordy (records)" } },
+        { "id": "nested-classes", "kind": "extra", "title": { "ru": "Вложенные классы", "en": "Nested classes", "pl": "Klasy zagnieżdżone" } },
+        { "id": "initializer-blocks", "kind": "extra", "title": { "ru": "Блоки инициализации и порядок создания объекта", "en": "Initializer blocks and object creation order", "pl": "Bloki inicjalizacyjne i kolejność tworzenia obiektu" } },
+        { "id": "pass-by-value", "kind": "extra", "title": { "ru": "Передача по значению", "en": "Pass by value", "pl": "Przekazywanie przez wartość" } },
+        { "id": "binding", "kind": "extra", "title": { "ru": "Статическое и динамическое связывание", "en": "Static and dynamic binding", "pl": "Wiązanie statyczne i dynamiczne" } },
+        { "id": "method-chaining", "kind": "extra", "title": { "ru": "Цепочки вызовов и Builder", "en": "Method chaining and Builder", "pl": "Łańcuchy wywołań i Builder" } },
+        { "id": "annotations", "kind": "extra", "title": { "ru": "Аннотации", "en": "Annotations", "pl": "Adnotacje" } },
+        { "id": "modules", "kind": "extra", "title": { "ru": "Модули (JPMS)", "en": "Modules (JPMS)", "pl": "Moduły (JPMS)" } },
+        { "id": "functional", "kind": "extra", "title": { "ru": "Функциональное программирование", "en": "Functional programming", "pl": "Programowanie funkcyjne" } },
+        { "id": "date-time", "kind": "extra", "title": { "ru": "Дата и время: java.time", "en": "Date and time: java.time", "pl": "Data i czas: java.time" } },
+        { "id": "regex", "kind": "extra", "title": { "ru": "Регулярные выражения", "en": "Regular expressions", "pl": "Wyrażenia regularne" } }
+      ]
+    },
+    {
+      "id": "extra-jvm",
+      "icon": "⚙️",
+      "title": { "ru": "Дополнительно: память и потоки", "en": "Extra: memory and threads", "pl": "Dodatkowo: pamięć i wątki" },
+      "desc": {
+        "ru": "Модель памяти Java и виртуальные потоки — то, что спрашивают на Middle.",
+        "en": "The Java Memory Model and virtual threads — what Middle interviews ask about.",
+        "pl": "Model pamięci Javy i wątki wirtualne — o to pytają na poziomie Middle."
+      },
+      "items": [
+        { "id": "jmm-volatile", "kind": "extra", "title": { "ru": "Модель памяти Java и volatile", "en": "The Java Memory Model and volatile", "pl": "Model pamięci Javy i volatile" } },
+        { "id": "virtual-threads", "kind": "extra", "title": { "ru": "Виртуальные потоки", "en": "Virtual threads", "pl": "Wątki wirtualne" } }
+      ]
+    },
+    {
+      "id": "extra-eco",
+      "icon": "🌐",
+      "title": { "ru": "Дополнительно: бэкенд-экосистема", "en": "Extra: the backend ecosystem", "pl": "Dodatkowo: ekosystem backendu" },
+      "desc": {
+        "ru": "Сеть, криптография, сборка, DI, веб-фреймворки, базы данных, логирование и тестирование.",
+        "en": "Networking, cryptography, build tools, DI, web frameworks, databases, logging and testing.",
+        "pl": "Sieć, kryptografia, budowanie, DI, frameworki webowe, bazy danych, logowanie i testowanie."
+      },
+      "items": [
+        { "id": "networking", "kind": "extra", "title": { "ru": "Сеть: HttpClient и сокеты", "en": "Networking: HttpClient and sockets", "pl": "Sieć: HttpClient i gniazda" } },
+        { "id": "cryptography", "kind": "extra", "title": { "ru": "Криптография", "en": "Cryptography", "pl": "Kryptografia" } },
+        { "id": "build-tools", "kind": "extra", "title": { "ru": "Сборка: Maven, Gradle, Bazel", "en": "Build tools: Maven, Gradle, Bazel", "pl": "Budowanie: Maven, Gradle, Bazel" } },
+        { "id": "dependency-injection", "kind": "extra", "title": { "ru": "Внедрение зависимостей (DI)", "en": "Dependency injection (DI)", "pl": "Wstrzykiwanie zależności (DI)" } },
+        { "id": "web-frameworks", "kind": "extra", "title": { "ru": "Веб-фреймворки: Spring Boot и другие", "en": "Web frameworks: Spring Boot and others", "pl": "Frameworki webowe: Spring Boot i inne" } },
+        { "id": "database-access", "kind": "extra", "title": { "ru": "Доступ к БД: JDBC, JPA, Spring Data", "en": "Database access: JDBC, JPA, Spring Data", "pl": "Dostęp do bazy: JDBC, JPA, Spring Data" } },
+        { "id": "logging", "kind": "extra", "title": { "ru": "Логирование", "en": "Logging", "pl": "Logowanie" } },
+        { "id": "testing", "kind": "extra", "title": { "ru": "Тестирование", "en": "Testing", "pl": "Testowanie" } }
+      ]
     }
   ]
 }
