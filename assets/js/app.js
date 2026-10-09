@@ -143,6 +143,22 @@ function closeSidebar() {
   document.querySelector('[data-action="toggle-sidebar"]').setAttribute('aria-expanded', 'false');
 }
 
+/* На больших экранах меню курса сворачивается в узкую закладку; состояние запоминается */
+const COLLAPSE_KEY = 'javastudy.sidebarCollapsed';
+
+function applyDesktopSidebar(collapsed) {
+  document.documentElement.classList.toggle('sidebar-collapsed', collapsed);
+  document.querySelector('[data-action="toggle-sidebar"]').setAttribute('aria-expanded', String(!collapsed));
+}
+
+function toggleDesktopSidebar() {
+  const collapsed = !document.documentElement.classList.contains('sidebar-collapsed');
+  applyDesktopSidebar(collapsed);
+  try { localStorage.setItem(COLLAPSE_KEY, collapsed ? '1' : '0'); } catch { /* приватный режим */ }
+}
+
+try { if (localStorage.getItem(COLLAPSE_KEY) === '1') document.documentElement.classList.add('sidebar-collapsed'); } catch { /* ignore */ }
+
 /* ---------- Глобальные обработчики ---------- */
 
 function bindEvents() {
@@ -159,7 +175,9 @@ function bindEvents() {
     if (!actionEl) return;
 
     const action = actionEl.dataset.action;
-    if (action === 'toggle-sidebar') {
+    if (action === 'toggle-sidebar' && window.matchMedia('(min-width: 1100px)').matches) {
+      toggleDesktopSidebar();
+    } else if (action === 'toggle-sidebar') {
       slots.sidebar.classList.contains('sidebar--open') ? closeSidebar() : openSidebar();
     } else if (action === 'close-sidebar') {
       closeSidebar();
