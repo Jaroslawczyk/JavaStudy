@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: var(--space-6);
-  max-width: calc(var(--measure) + var(--toc-width) + var(--space-6));
+  max-width: var(--measure);
   margin: 0 auto;
 }
 
@@ -153,6 +153,7 @@
 @media (min-width: 1400px) {
   .article {
     grid-template-columns: minmax(0, var(--measure)) var(--toc-width);
+    max-width: calc(var(--measure) + var(--toc-width) + var(--space-6));
   }
 
   .article__aside {
