@@ -1,0 +1,56 @@
+/* Тема «Кофейная светлая»: крем, эспрессо, карамель. Контраст текста ≥ 4.5:1 (WCAG AA) */
+:root,
+:root[data-theme="coffee"] {
+  color-scheme: light;
+
+  --color-bg: #f5eee4;
+  --color-surface: #fffaf3;
+  --color-surface-2: #f1e6d6;
+  --color-surface-3: #e8d9c4;
+  --color-border: #ddc9ae;
+  --color-border-strong: #b89a76;
+  --color-text: #2e2018;
+  --color-text-muted: #66503f;
+  --color-heading: #24170f;
+  --color-link: #8a3f0e;
+  --color-link-hover: #5e2a06;
+  --color-accent: #8a4b1f;
+  --color-accent-text: #fffaf3;
+  --color-accent-soft: #f3dcc3;
+  --color-focus: #b5560f;
+  --color-selection: #f1cfa6;
+
+  --color-code-bg: #2b1d15;
+  --color-code-text: #f3e6d6;
+  --color-code-bar: #3a281d;
+  --color-inline-code-bg: #eedfcb;
+  --color-inline-code-text: #6b2f08;
+
+  --c-info: #275f8f;
+  --c-info-bg: #e6eef5;
+  --c-tip: #3c6a2a;
+  --c-tip-bg: #e8f0df;
+  --c-warning: #8a5300;
+  --c-warning-bg: #fbecd2;
+  --c-outdated: #7b3f8c;
+  --c-outdated-bg: #f2e6f4;
+  --c-interview: #1f6b6b;
+  --c-interview-bg: #dff0ee;
+  --c-easy: #3c6a2a;
+  --c-medium: #8a5300;
+  --c-hard: #a2321f;
+  --c-video: #a2321f;
+  --c-article: #275f8f;
+  --c-done: #3c6a2a;
+
+  /* Подсветка кода на тёмном «эспрессо» фоне */
+  --code-keyword: #ffb070;
+  --code-string: #b9d98a;
+  --code-number: #f5c97a;
+  --code-comment: #a8917c;
+  --code-title: #ffd9a8;
+  --code-type: #8fcfe0;
+  --code-meta: #e7a4d4;
+  --code-attr: #f5c97a;
+  --code-literal: #ff9f8a;
+}

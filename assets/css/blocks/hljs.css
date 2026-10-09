@@ -1,0 +1,28 @@
+/* Токены highlight.js → переменные темы (классы задаёт библиотека) */
+.hljs { color: var(--color-code-text); background: transparent; }
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in { color: var(--code-keyword); }
+.hljs-string,
+.hljs-regexp,
+.hljs-char.escape_ { color: var(--code-string); }
+.hljs-number { color: var(--code-number); }
+.hljs-comment,
+.hljs-quote { color: var(--code-comment); font-style: italic; }
+.hljs-title,
+.hljs-title.function_,
+.hljs-section { color: var(--code-title); }
+.hljs-title.class_,
+.hljs-type { color: var(--code-type); }
+.hljs-meta,
+.hljs-meta .hljs-keyword { color: var(--code-meta); }
+.hljs-attr,
+.hljs-attribute,
+.hljs-variable,
+.hljs-params { color: var(--code-attr); }
+.hljs-literal,
+.hljs-symbol { color: var(--code-literal); }
+.hljs-tag,
+.hljs-name { color: var(--code-keyword); }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }

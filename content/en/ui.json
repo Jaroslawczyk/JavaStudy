@@ -1,0 +1,124 @@
+{
+  "skipToContent": "Skip to content",
+  "menu": "Course menu",
+  "toggleTheme": "Switch theme",
+  "a11ySettings": "Reading & accessibility",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "lang": { "ru": "Русский", "en": "English", "pl": "Polski" },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "course": "Course",
+    "roadmap": "Roadmap",
+    "career": "Career",
+    "ai": "AI",
+    "levels": "Levels"
+  },
+  "search": {
+    "label": "Search lessons",
+    "placeholder": "Find a lesson…",
+    "empty": "Nothing found"
+  },
+  "sidebar": { "title": "Course contents" },
+  "video": {
+    "part1": "Video, part 1",
+    "part2": "Video, part 2",
+    "watchSegment": "Watch segment",
+    "watchFrom": "Watch the video from",
+    "notConfigured": "Video is not connected: set youtubeId in content/config.json",
+    "openOnYoutube": "Open on YouTube",
+    "minimize": "Minimize player",
+    "restore": "Restore player",
+    "close": "Close player",
+    "note": "The video is loaded from youtube-nocookie.com (privacy-enhanced mode) only after you click. The course audio is in Russian — turn on YouTube auto-translated subtitles if needed."
+  },
+  "callout": {
+    "note": "Note",
+    "tip": "Tip",
+    "warning": "Warning",
+    "outdated": "Outdated",
+    "interview": "Interview"
+  },
+  "task": {
+    "label": "Task",
+    "hint": "Hint",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "video": "From the video"
+  },
+  "article": {
+    "toc": "Contents",
+    "readingTime": "{n} min read",
+    "fallback": "This page has not been translated yet — showing the Russian version.",
+    "prev": "Previous",
+    "next": "Next",
+    "pager": "Lesson navigation",
+    "done": "Completed",
+    "markDone": "Mark lesson as completed",
+    "lesson": "Lesson",
+    "article": "Article",
+    "kindVideo": "Video lesson: segment start"
+  },
+  "home": {
+    "cardsTitle": "Course sections",
+    "moreTitle": "What's next",
+    "progress": "{done} of {total} completed",
+    "cards": {
+      "roadmap": "Interactive Java map: click a topic to open the lesson.",
+      "career": "Backend after Java, the current stack in Europe, remote and in Warsaw.",
+      "ai": "How AI changes a Java developer's work and how to learn with it properly.",
+      "levels": "Trainee → Junior → Middle → Senior: what to know at each level."
+    }
+  },
+  "roadmap": {
+    "java": {
+      "tab": "Java",
+      "title": "Java Roadmap",
+      "intro": "The Java learning path from top to bottom. Every node is a link: ▶ opens a lesson with video timestamps, ■ opens a site article. Completed topics get a ✓."
+    },
+    "backend": {
+      "tab": "After Java: Backend",
+      "title": "Backend Roadmap — what to learn after Java",
+      "intro": "The next step after Java Core: the backend developer path. Click a node to open its detailed description on the Career page."
+    },
+    "legend": {
+      "video": "Video lesson",
+      "article": "Article",
+      "optional": "Optional",
+      "done": "Completed"
+    },
+    "attribution": "Structure inspired by the open maps <a href=\"https://roadmap.sh/java\" target=\"_blank\" rel=\"noopener\">roadmap.sh/java</a> and <a href=\"https://roadmap.sh/backend\" target=\"_blank\" rel=\"noopener\">roadmap.sh/backend</a>; layout and texts are original."
+  },
+  "settings": {
+    "title": "Reading & accessibility",
+    "close": "Close",
+    "theme": "Theme",
+    "themeCoffee": "Coffee light",
+    "themeDark": "GitHub dark",
+    "cvd": "Color-blind mode",
+    "cvdHint": "Okabe–Ito palette that stays distinguishable with protanopia, deuteranopia and tritanopia. Meaning is also shown with icons and border patterns.",
+    "fontSize": "Text size",
+    "lineHeight": "Line spacing",
+    "lineNormal": "Normal",
+    "lineRelaxed": "Relaxed",
+    "width": "Line width",
+    "widthNarrow": "Narrow",
+    "widthNormal": "Normal",
+    "widthWide": "Wide",
+    "readableFont": "High-legibility font",
+    "readableFontHint": "Atkinson Hyperlegible for Latin text (EN/PL) — clearly distinct I/l/1 and O/0.",
+    "reset": "Reset",
+    "done": "Done"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist — the link may be outdated.",
+    "home": "Go to home page"
+  },
+  "footer": {
+    "text": "JavaStudy is an open Java learning site. Video course © Andrey Sumin; notes, exercises and translations are original site materials.",
+    "about": "About & licenses"
+  }
+}

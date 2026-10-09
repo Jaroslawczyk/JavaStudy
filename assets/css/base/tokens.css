@@ -1,0 +1,46 @@
+/* Нецветовые токены. Цвета задаются в themes/*.css */
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, "Liberation Mono", monospace;
+  --font-readable: "Atkinson Hyperlegible", var(--font-sans);
+  --font-body: var(--font-sans);
+
+  --fs-base: 1rem;
+  --fs-sm: 0.875em;
+  --fs-xs: 0.78em;
+  --fs-h1: clamp(1.7rem, 1.3rem + 1.6vw, 2.4rem);
+  --fs-h2: clamp(1.35rem, 1.15rem + 0.8vw, 1.7rem);
+  --fs-h3: 1.2rem;
+  --fs-h4: 1.05rem;
+  --lh-body: 1.65;
+  --lh-tight: 1.25;
+  --measure: 76ch;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+
+  --header-height: 60px;
+  --sidebar-width: 300px;
+  --toc-width: 240px;
+
+  --gutter: 16px;
+  --focus-ring: 3px solid var(--color-focus);
+  --transition: 160ms ease;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 4px 16px rgb(0 0 0 / 0.06);
+  --shadow-lg: 0 10px 40px rgb(0 0 0 / 0.22);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --gutter: 24px;
+  }
+}

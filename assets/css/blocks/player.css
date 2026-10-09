@@ -1,0 +1,84 @@
+/* Плавающий видеоплеер: читаем урок и смотрим фрагмент одновременно */
+.player {
+  position: fixed;
+  right: var(--space-4);
+  bottom: var(--space-4);
+  z-index: 50;
+  width: min(440px, calc(100vw - 2 * var(--space-4)));
+  overflow: hidden;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-lg);
+}
+
+.player__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-2) var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.player__title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.player__btn {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.player__btn:hover {
+  border-color: var(--color-border);
+  background: var(--color-surface-2);
+}
+
+.player__frame-wrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.player__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.player__note {
+  padding: var(--space-1) var(--space-3);
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+}
+
+.player--minimized .player__frame-wrap,
+.player--minimized .player__note {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .player {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+}

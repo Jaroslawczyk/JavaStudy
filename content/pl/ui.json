@@ -1,0 +1,124 @@
+{
+  "skipToContent": "Przejdź do treści",
+  "menu": "Menu kursu",
+  "toggleTheme": "Zmień motyw",
+  "a11ySettings": "Czytanie i dostępność",
+  "copy": "Kopiuj",
+  "copied": "Skopiowano!",
+  "lang": { "ru": "Русский", "en": "English", "pl": "Polski" },
+  "nav": {
+    "home": "Start",
+    "tools": "Narzędzia",
+    "course": "Kurs",
+    "roadmap": "Roadmapa",
+    "career": "Kariera",
+    "ai": "AI",
+    "levels": "Poziomy"
+  },
+  "search": {
+    "label": "Szukaj lekcji",
+    "placeholder": "Znajdź lekcję…",
+    "empty": "Nic nie znaleziono"
+  },
+  "sidebar": { "title": "Spis treści kursu" },
+  "video": {
+    "part1": "Wideo, część 1",
+    "part2": "Wideo, część 2",
+    "watchSegment": "Obejrzyj fragment",
+    "watchFrom": "Obejrzyj wideo od",
+    "notConfigured": "Wideo nie jest podłączone: ustaw youtubeId w content/config.json",
+    "openOnYoutube": "Otwórz w YouTube",
+    "minimize": "Zminimalizuj odtwarzacz",
+    "restore": "Przywróć odtwarzacz",
+    "close": "Zamknij odtwarzacz",
+    "note": "Wideo ładuje się z youtube-nocookie.com (tryb zwiększonej prywatności) dopiero po kliknięciu. Kurs jest nagrany po rosyjsku — w razie potrzeby włącz automatyczne napisy z tłumaczeniem w YouTube."
+  },
+  "callout": {
+    "note": "Notatka",
+    "tip": "Wskazówka",
+    "warning": "Uwaga",
+    "outdated": "Nieaktualne",
+    "interview": "Rozmowa rekrutacyjna"
+  },
+  "task": {
+    "label": "Zadanie",
+    "hint": "Podpowiedź",
+    "easy": "Łatwe",
+    "medium": "Średnie",
+    "hard": "Trudne",
+    "video": "Z wideo"
+  },
+  "article": {
+    "toc": "Spis treści",
+    "readingTime": "{n} min czytania",
+    "fallback": "Ta strona nie została jeszcze przetłumaczona — wyświetlana jest wersja rosyjska.",
+    "prev": "Wstecz",
+    "next": "Dalej",
+    "pager": "Nawigacja między lekcjami",
+    "done": "Ukończono",
+    "markDone": "Oznacz lekcję jako ukończoną",
+    "lesson": "Lekcja",
+    "article": "Artykuł",
+    "kindVideo": "Lekcja wideo: początek fragmentu"
+  },
+  "home": {
+    "cardsTitle": "Działy kursu",
+    "moreTitle": "Co dalej",
+    "progress": "Ukończono {done} z {total}",
+    "cards": {
+      "roadmap": "Interaktywna mapa Javy: kliknij temat, aby otworzyć lekcję.",
+      "career": "Backend po Javie, aktualny stos technologiczny w Europie, zdalnie i w Warszawie.",
+      "ai": "Jak AI zmienia pracę programisty Java i jak dobrze się z nią uczyć.",
+      "levels": "Trainee → Junior → Mid → Senior: co trzeba umieć na każdym poziomie."
+    }
+  },
+  "roadmap": {
+    "java": {
+      "tab": "Java",
+      "title": "Roadmapa Java",
+      "intro": "Ścieżka nauki Javy od góry do dołu. Każdy węzeł to link: ▶ otwiera lekcję ze znacznikami czasu wideo, ■ — artykuł na stronie. Ukończone tematy oznaczane są ✓."
+    },
+    "backend": {
+      "tab": "Po Javie: Backend",
+      "title": "Roadmapa Backend — czego uczyć się po Javie",
+      "intro": "Następny krok po Java Core: ścieżka programisty backend. Kliknij węzeł, aby otworzyć szczegółowy opis na stronie „Kariera”."
+    },
+    "legend": {
+      "video": "Lekcja wideo",
+      "article": "Artykuł",
+      "optional": "Opcjonalnie",
+      "done": "Ukończono"
+    },
+    "attribution": "Struktura inspirowana otwartymi mapami <a href=\"https://roadmap.sh/java\" target=\"_blank\" rel=\"noopener\">roadmap.sh/java</a> i <a href=\"https://roadmap.sh/backend\" target=\"_blank\" rel=\"noopener\">roadmap.sh/backend</a>; układ i teksty są autorskie."
+  },
+  "settings": {
+    "title": "Czytanie i dostępność",
+    "close": "Zamknij",
+    "theme": "Motyw",
+    "themeCoffee": "Kawowy jasny",
+    "themeDark": "GitHub ciemny",
+    "cvd": "Tryb dla daltonistów",
+    "cvdHint": "Paleta Okabe–Ito rozróżnialna przy protanopii, deuteranopii i tritanopii. Znaczenie jest dodatkowo pokazane ikonami i wzorami ramek.",
+    "fontSize": "Rozmiar tekstu",
+    "lineHeight": "Interlinia",
+    "lineNormal": "Normalna",
+    "lineRelaxed": "Zwiększona",
+    "width": "Szerokość wiersza",
+    "widthNarrow": "Wąska",
+    "widthNormal": "Normalna",
+    "widthWide": "Szeroka",
+    "readableFont": "Czcionka o wysokiej czytelności",
+    "readableFontHint": "Atkinson Hyperlegible dla alfabetu łacińskiego (EN/PL) — wyraźnie różne I/l/1 i O/0.",
+    "reset": "Resetuj",
+    "done": "Gotowe"
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "text": "Taka strona nie istnieje — link mógł się zdezaktualizować.",
+    "home": "Na stronę główną"
+  },
+  "footer": {
+    "text": "JavaStudy to otwarta strona do nauki Javy. Kurs wideo © Andriej Sumin; notatki, zadania i tłumaczenia to autorskie materiały strony.",
+    "about": "O projekcie i licencjach"
+  }
+}

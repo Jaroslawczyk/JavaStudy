@@ -1,0 +1,29 @@
+.done-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.done-toggle:hover {
+  border-color: var(--c-done);
+}
+
+.done-toggle__input {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0;
+  accent-color: var(--c-done);
+  cursor: pointer;
+}
+
+.done-toggle--checked {
+  border-color: var(--c-done);
+  background: color-mix(in srgb, var(--c-done) 10%, var(--color-surface));
+}

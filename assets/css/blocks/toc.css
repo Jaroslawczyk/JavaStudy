@@ -1,0 +1,74 @@
+.toc {
+  position: sticky;
+  top: calc(var(--header-h, var(--header-height)) + var(--space-5));
+  max-height: calc(100vh - var(--header-h, var(--header-height)) - var(--space-7));
+  overflow-y: auto;
+  font-size: 0.86rem;
+}
+
+.toc__title {
+  margin-bottom: var(--space-2);
+  color: var(--color-heading);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.toc__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid var(--color-border);
+}
+
+.toc__item--h3 .toc__link {
+  padding-left: var(--space-5);
+  font-size: 0.95em;
+}
+
+.toc__link {
+  display: block;
+  margin-left: -2px;
+  padding: 0.25rem var(--space-3);
+  border-left: 2px solid transparent;
+  color: var(--color-text-muted);
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.toc__link:hover {
+  color: var(--color-heading);
+}
+
+.toc__link--active {
+  border-left-color: var(--color-accent);
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+/* Мобильный вариант: сворачиваемое оглавление в начале статьи */
+.toc--inline {
+  position: static;
+  max-height: none;
+  margin-bottom: var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.toc--inline .toc__title {
+  margin: 0;
+  cursor: pointer;
+}
+
+.toc--inline[open] .toc__title {
+  margin-bottom: var(--space-2);
+}
+
+@media (min-width: 1400px) {
+  .toc--inline {
+    display: none;
+  }
+}

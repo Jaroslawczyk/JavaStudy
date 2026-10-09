@@ -1,0 +1,45 @@
+/* JavaStudy — точка входа стилей.
+   Порядок: base → themes → blocks. Каждый BEM-блок лежит в отдельном файле blocks/<block>.css */
+
+@import url("base/reset.css");
+@import url("base/tokens.css");
+@import url("base/fonts.css");
+@import url("base/typography.css");
+@import url("base/a11y.css");
+
+@import url("themes/coffee-light.css");
+@import url("themes/github-dark.css");
+@import url("themes/cvd.css");
+@import url("themes/reading.css");
+
+@import url("blocks/page.css");
+@import url("blocks/skip-link.css");
+@import url("blocks/header.css");
+@import url("blocks/nav.css");
+@import url("blocks/lang-switch.css");
+@import url("blocks/icon-btn.css");
+@import url("blocks/progress-bar.css");
+@import url("blocks/layout.css");
+@import url("blocks/sidebar.css");
+@import url("blocks/search.css");
+@import url("blocks/article.css");
+@import url("blocks/breadcrumbs.css");
+@import url("blocks/toc.css");
+@import url("blocks/timecode.css");
+@import url("blocks/player.css");
+@import url("blocks/callout.css");
+@import url("blocks/task.css");
+@import url("blocks/badge.css");
+@import url("blocks/code-block.css");
+@import url("blocks/hljs.css");
+@import url("blocks/table.css");
+@import url("blocks/pager.css");
+@import url("blocks/done-toggle.css");
+@import url("blocks/card.css");
+@import url("blocks/card-grid.css");
+@import url("blocks/roadmap.css");
+@import url("blocks/roadmap-node.css");
+@import url("blocks/tabs.css");
+@import url("blocks/settings.css");
+@import url("blocks/notice.css");
+@import url("blocks/footer.css");

@@ -1,0 +1,33 @@
+{
+  "sections": [
+    {
+      "id": "tools",
+      "icon": "🧰",
+      "title": { "ru": "Инструменты", "en": "Tools", "pl": "Narzędzia" },
+      "desc": {
+        "ru": "IDE, плагины, JDK, сборщики, Git и всё, что нужно до первой строчки кода.",
+        "en": "IDEs, plugins, JDKs, build tools, Git and everything you need before the first line of code.",
+        "pl": "IDE, wtyczki, JDK, narzędzia budowania, Git i wszystko, czego potrzebujesz przed pierwszą linijką kodu."
+      },
+      "items": [
+        { "id": "ide", "kind": "tools", "title": { "ru": "IDE: где писать код на Java", "en": "IDEs: where to write Java", "pl": "IDE: gdzie pisać kod w Javie" } },
+        { "id": "plugins", "kind": "tools", "title": { "ru": "Плагины для IDE", "en": "IDE plugins", "pl": "Wtyczki do IDE" } },
+        { "id": "jdk", "kind": "tools", "title": { "ru": "JDK: версии и дистрибутивы", "en": "JDK: versions and distributions", "pl": "JDK: wersje i dystrybucje" } },
+        { "id": "ecosystem", "kind": "tools", "title": { "ru": "Экосистема: Maven, Gradle, Git, Docker и др.", "en": "Ecosystem: Maven, Gradle, Git, Docker & more", "pl": "Ekosystem: Maven, Gradle, Git, Docker i inne" } }
+      ]
+    },
+    {
+      "id": "basics",
+      "icon": "☕",
+      "title": { "ru": "Часть 1. Основы Java", "en": "Part 1. Java basics", "pl": "Część 1. Podstawy Javy" },
+      "desc": {
+        "ru": "Установка, переменные, типы данных, условия, циклы, массивы, строки.",
+        "en": "Setup, variables, data types, conditions, loops, arrays, strings.",
+        "pl": "Instalacja, zmienne, typy danych, warunki, pętle, tablice, napisy."
+      },
+      "items": [
+        { "id": "j1-setup", "kind": "lessons", "video": "j1", "start": "0:00", "end": "6:05", "title": { "ru": "Введение и установка IntelliJ IDEA + JDK", "en": "Introduction and installing IntelliJ IDEA + JDK", "pl": "Wprowadzenie i instalacja IntelliJ IDEA + JDK" } }
+      ]
+    }
+  ]
+}

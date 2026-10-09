@@ -1,0 +1,55 @@
+/* Режим для людей с нарушением цветового зрения (протанопия, дейтеранопия, тританопия).
+   Палитра Okabe–Ito; смысл дублируется иконкой, текстом и узором рамки — не только цветом. */
+:root[data-cvd="on"] {
+  --c-info: #005a8e;
+  --c-tip: #00704f;
+  --c-warning: #8f5a00;
+  --c-outdated: #8e3f6e;
+  --c-interview: #005a8e;
+  --c-easy: #00704f;
+  --c-medium: #8f5a00;
+  --c-hard: #a84500;
+  --c-video: #a84500;
+  --c-article: #005a8e;
+  --c-done: #005a8e;
+
+  --code-keyword: #f0b450;
+  --code-string: #8ccfee;
+  --code-number: #f2e27a;
+  --code-comment: #b3b3b3;
+  --code-title: #ffffff;
+  --code-type: #e8a3c9;
+  --code-meta: #8ccfee;
+  --code-attr: #f2e27a;
+  --code-literal: #f0b450;
+
+  --callout-style-info: solid;
+  --callout-style-tip: solid;
+  --callout-style-warning: double;
+  --callout-style-outdated: dashed;
+  --callout-style-interview: dotted;
+  --callout-width: 6px;
+}
+
+:root[data-cvd="on"][data-theme="github-dark"] {
+  --c-info: #56b4e9;
+  --c-tip: #2fc69a;
+  --c-warning: #e69f00;
+  --c-outdated: #e48fc0;
+  --c-interview: #56b4e9;
+  --c-easy: #2fc69a;
+  --c-medium: #e69f00;
+  --c-hard: #ff8a3d;
+  --c-video: #ff8a3d;
+  --c-article: #56b4e9;
+  --c-done: #56b4e9;
+}
+
+/* Ссылки всегда подчёркнуты, усиленный фокус */
+:root[data-cvd="on"] a {
+  text-decoration-line: underline;
+}
+
+:root[data-cvd="on"] {
+  --focus-ring: 4px solid var(--color-focus);
+}

@@ -1,0 +1,78 @@
+.callout {
+  --callout-color: var(--c-info);
+  --callout-bg: var(--c-info-bg);
+  --callout-style: var(--callout-style-info, solid);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid color-mix(in srgb, var(--callout-color) 30%, transparent);
+  border-left: var(--callout-width, 4px) var(--callout-style) var(--callout-color);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--callout-bg);
+}
+
+.callout--tip {
+  --callout-color: var(--c-tip);
+  --callout-bg: var(--c-tip-bg);
+  --callout-style: var(--callout-style-tip, solid);
+}
+
+.callout--warning {
+  --callout-color: var(--c-warning);
+  --callout-bg: var(--c-warning-bg);
+  --callout-style: var(--callout-style-warning, solid);
+}
+
+.callout--outdated {
+  --callout-color: var(--c-outdated);
+  --callout-bg: var(--c-outdated-bg);
+  --callout-style: var(--callout-style-outdated, solid);
+}
+
+.callout--interview {
+  --callout-color: var(--c-interview);
+  --callout-bg: var(--c-interview-bg);
+  --callout-style: var(--callout-style-interview, solid);
+}
+
+.callout__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.callout__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: var(--callout-color);
+  color: var(--color-surface);
+  font-size: 0.8rem;
+  font-weight: 900;
+  line-height: 1;
+  align-self: center;
+}
+
+.callout__label {
+  color: var(--callout-color);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.callout__title {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+.callout__body > * + * {
+  margin-top: var(--space-3);
+}
+
+.callout__body ul,
+.callout__body ol {
+  padding-left: 1.3em;
+}

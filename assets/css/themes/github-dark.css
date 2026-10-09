@@ -1,0 +1,57 @@
+/* Тема «GitHub Dark» — палитра GitHub Primer (dark default) */
+:root[data-theme="github-dark"] {
+  color-scheme: dark;
+
+  --color-bg: #0d1117;
+  --color-surface: #161b22;
+  --color-surface-2: #1c2129;
+  --color-surface-3: #262c36;
+  --color-border: #30363d;
+  --color-border-strong: #484f58;
+  --color-text: #e6edf3;
+  --color-text-muted: #9198a1;
+  --color-heading: #f0f6fc;
+  --color-link: #4493f8;
+  --color-link-hover: #79b8ff;
+  --color-accent: #1f6feb;
+  --color-accent-text: #ffffff;
+  --color-accent-soft: #132339;
+  --color-focus: #58a6ff;
+  --color-selection: #1f6feb66;
+
+  --color-code-bg: #0d1117;
+  --color-code-text: #e6edf3;
+  --color-code-bar: #161b22;
+  --color-inline-code-bg: #2a313c;
+  --color-inline-code-text: #ffa198;
+
+  --c-info: #4493f8;
+  --c-info-bg: #121d2f;
+  --c-tip: #3fb950;
+  --c-tip-bg: #12261e;
+  --c-warning: #d29922;
+  --c-warning-bg: #272115;
+  --c-outdated: #ab7df8;
+  --c-outdated-bg: #1f1834;
+  --c-interview: #39c5cf;
+  --c-interview-bg: #0f2629;
+  --c-easy: #3fb950;
+  --c-medium: #d29922;
+  --c-hard: #f85149;
+  --c-video: #f85149;
+  --c-article: #4493f8;
+  --c-done: #3fb950;
+
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.03), 0 8px 24px rgb(1 4 9 / 0.5);
+
+  /* GitHub dark (Primer) syntax */
+  --code-keyword: #ff7b72;
+  --code-string: #a5d6ff;
+  --code-number: #79c0ff;
+  --code-comment: #8b949e;
+  --code-title: #d2a8ff;
+  --code-type: #ffa657;
+  --code-meta: #79c0ff;
+  --code-attr: #79c0ff;
+  --code-literal: #79c0ff;
+}

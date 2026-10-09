@@ -1,0 +1,126 @@
+.roadmap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.roadmap__header {
+  margin-bottom: var(--space-5);
+}
+
+.roadmap__title {
+  font-size: var(--fs-h1);
+}
+
+.roadmap__intro {
+  max-width: var(--measure);
+  margin-top: var(--space-3);
+  color: var(--color-text-muted);
+}
+
+.roadmap__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+}
+
+.roadmap__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.roadmap__track {
+  position: relative;
+  margin: var(--space-6) 0 0;
+  padding: 0 0 0 2.6rem;
+  list-style: none;
+}
+
+.roadmap__track::before {
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 1rem;
+  width: 4px;
+  border-radius: 2px;
+  background: linear-gradient(var(--color-accent), color-mix(in srgb, var(--color-accent) 30%, transparent));
+  content: "";
+}
+
+.roadmap__step {
+  position: relative;
+}
+
+.roadmap__step + .roadmap__step {
+  margin-top: var(--space-5);
+}
+
+.roadmap__step-marker {
+  position: absolute;
+  top: 0.6rem;
+  left: -2.6rem;
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 3px solid var(--color-bg);
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.roadmap__step--done .roadmap__step-marker {
+  background: var(--c-done);
+}
+
+.roadmap__step-card {
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.roadmap__step-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2) var(--space-3);
+}
+
+.roadmap__step-title {
+  font-size: 1.15rem;
+}
+
+.roadmap__step-count {
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.roadmap__step-desc {
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: 0.93rem;
+}
+
+.roadmap__nodes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
+  gap: var(--space-2);
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roadmap__footer {
+  margin-top: var(--space-6);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}

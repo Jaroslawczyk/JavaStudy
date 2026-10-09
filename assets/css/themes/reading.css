@@ -1,0 +1,15 @@
+/* Настройки чтения: размер шрифта, интервал, ширина строки, читаемый шрифт */
+:root[data-font-size="s"] { --fs-root: 93.75%; }
+:root[data-font-size="l"] { --fs-root: 112.5%; }
+:root[data-font-size="xl"] { --fs-root: 125%; }
+
+:root[data-line-height="relaxed"] { --lh-body: 1.9; }
+
+:root[data-width="narrow"] { --measure: 62ch; }
+:root[data-width="wide"] { --measure: 96ch; }
+
+:root[data-readable-font="on"] {
+  --font-body: var(--font-readable);
+  letter-spacing: 0.01em;
+  word-spacing: 0.06em;
+}

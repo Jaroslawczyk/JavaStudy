@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru" data-theme="coffee">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaStudy — Java с нуля до Junior+</title>
+  <meta name="description" content="JavaStudy: бесплатный курс Java с нуля — уроки с таймкодами видео, домашние задания, roadmap, инструменты, карьера и ИИ. RU / EN / PL.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>
+    /* Применяем настройки до отрисовки, чтобы не было вспышки темы */
+    (function () {
+      var root = document.documentElement, s = {};
+      try { s = JSON.parse(localStorage.getItem('javastudy.settings') || '{}') || {}; } catch (e) {}
+      var theme = s.theme || (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'github-dark' : 'coffee');
+      root.dataset.theme = theme;
+      if (s.cvd) root.dataset.cvd = 'on';
+      if (s.fontSize) root.dataset.fontSize = s.fontSize;
+      if (s.lineHeight) root.dataset.lineHeight = s.lineHeight;
+      if (s.readableFont) root.dataset.readableFont = 'on';
+      if (s.width) root.dataset.width = s.width;
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body class="page">
+  <a class="skip-link" href="#main" data-i18n="skipToContent">Перейти к содержимому</a>
+
+  <header class="header">
+    <div class="header__inner">
+      <button class="header__menu-btn" type="button" aria-controls="sidebar" aria-expanded="false" data-action="toggle-sidebar">
+        <span class="header__menu-icon" aria-hidden="true"></span>
+        <span class="visually-hidden" data-i18n="menu">Меню</span>
+      </button>
+      <a class="header__logo" href="#/" data-link="home">
+        <span class="header__logo-mark" aria-hidden="true">☕</span>
+        <span class="header__logo-text">Java<b>Study</b></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul class="nav__list" data-slot="nav"></ul>
+      </nav>
+      <div class="header__tools">
+        <div class="lang-switch" role="group" aria-label="Language" data-slot="lang"></div>
+        <button class="icon-btn" type="button" data-action="toggle-theme" data-i18n-title="toggleTheme" title="Тема">
+          <span class="icon-btn__icon" aria-hidden="true">◐</span>
+          <span class="visually-hidden" data-i18n="toggleTheme">Тема</span>
+        </button>
+        <button class="icon-btn" type="button" data-action="open-settings" aria-haspopup="dialog" data-i18n-title="a11ySettings" title="Чтение и доступность">
+          <span class="icon-btn__icon" aria-hidden="true">Aa</span>
+          <span class="visually-hidden" data-i18n="a11ySettings">Чтение и доступность</span>
+        </button>
+      </div>
+    </div>
+    <div class="progress-bar" aria-hidden="true"><div class="progress-bar__fill" data-slot="read-progress"></div></div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" data-slot="sidebar" aria-label="Course"></aside>
+    <div class="layout__backdrop" data-action="close-sidebar" hidden></div>
+    <main class="layout__main" id="main" tabindex="-1" data-slot="main" aria-live="polite"></main>
+  </div>
+
+  <footer class="footer" data-slot="footer"></footer>
+
+  <div class="player" data-slot="player" hidden></div>
+
+  <dialog class="settings" data-slot="settings" aria-labelledby="settings-title"></dialog>
+
+  <noscript><p class="noscript">JavaStudy requires JavaScript. / Для работы сайта нужен JavaScript.</p></noscript>
+</body>
+</html>

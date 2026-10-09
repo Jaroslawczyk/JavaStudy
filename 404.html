@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaStudy</title>
+  <script>
+    /* GitHub Pages: любые неизвестные пути ведут на главную SPA */
+    (function () {
+      var path = location.pathname.split('/').filter(Boolean);
+      var base = location.hostname.endsWith('github.io') && path.length ? '/' + path[0] + '/' : '/';
+      location.replace(base + (location.hash || ''));
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="./">JavaStudy</a></p>
+</body>
+</html>

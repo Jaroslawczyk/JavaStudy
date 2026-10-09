@@ -1,0 +1,49 @@
+.timecode {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.05em 0.5em;
+  border: 1px solid color-mix(in srgb, var(--c-video) 45%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c-video) 10%, transparent);
+  color: var(--color-heading);
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.timecode:hover {
+  border-color: var(--c-video);
+  background: color-mix(in srgb, var(--c-video) 18%, transparent);
+  color: var(--color-heading);
+}
+
+.timecode::after {
+  content: none !important;
+}
+
+.timecode__icon {
+  color: var(--c-video);
+  font-size: 0.8em;
+}
+
+.timecode__part {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.timecode--disabled {
+  cursor: help;
+  opacity: 0.75;
+}
+
+.timecode--large {
+  padding: 0.4em 0.9em;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+}
