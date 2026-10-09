@@ -15,6 +15,7 @@
     "tools": "Narzędzia",
     "course": "Kurs",
     "roadmap": "Roadmapa",
+    "cheatsheet": "Ściąga",
     "career": "Kariera",
     "ai": "AI",
     "levels": "Poziomy"
@@ -76,6 +77,7 @@
       "roadmap": "Interaktywna mapa Javy: kliknij temat, aby otworzyć lekcję.",
       "career": "Backend po Javie, aktualny stos technologiczny w Europie, zdalnie i w Warszawie.",
       "ai": "Jak AI zmienia pracę programisty Java i jak dobrze się z nią uczyć.",
+      "cheatsheet": "Krótko i na temat: kluczowe fakty o Javie do szybkiego powtórzenia.",
       "levels": "Trainee → Junior → Mid → Senior: co trzeba umieć na każdym poziomie."
     }
   },

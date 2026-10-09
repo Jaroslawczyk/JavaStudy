@@ -20,6 +20,7 @@ const NAV = [
   { key: 'tools', icon: '🧰', href: (l) => buildHash(l, 'tools', firstOfKind('tools')?.id), match: (r) => r.view === 'tools' },
   { key: 'course', icon: '☕', href: (l) => buildHash(l, 'lessons', firstOfKind('lessons')?.id), match: (r) => r.view === 'lessons' || r.view === 'extra' },
   { key: 'roadmap', icon: '🗺️', href: (l) => buildHash(l, 'roadmap'), match: (r) => r.view === 'roadmap' },
+  { key: 'cheatsheet', icon: '📝', href: (l) => buildHash(l, 'page', 'cheatsheet'), match: (r) => r.view === 'page' && r.id === 'cheatsheet' },
   { key: 'career', icon: '🧭', href: (l) => buildHash(l, 'page', 'career'), match: (r) => r.view === 'page' && r.id === 'career' },
   { key: 'ai', icon: '🤖', href: (l) => buildHash(l, 'page', 'ai'), match: (r) => r.view === 'page' && r.id === 'ai' },
   { key: 'levels', icon: '📈', href: (l) => buildHash(l, 'page', 'levels'), match: (r) => r.view === 'page' && r.id === 'levels' },

@@ -40,6 +40,7 @@ export async function renderHome(main, { videos }) {
     <h2 id="more">${esc(t('home.moreTitle'))}</h2>
     <div class="card-grid">
       ${pageCard('🗺️', buildHash(lang, 'roadmap'), t('nav.roadmap'), t('home.cards.roadmap'))}
+      ${pageCard('📝', buildHash(lang, 'page', 'cheatsheet'), t('nav.cheatsheet'), t('home.cards.cheatsheet'))}
       ${pageCard('🧭', buildHash(lang, 'page', 'career'), t('nav.career'), t('home.cards.career'))}
       ${pageCard('🤖', buildHash(lang, 'page', 'ai'), t('nav.ai'), t('home.cards.ai'))}
       ${pageCard('📈', buildHash(lang, 'page', 'levels'), t('nav.levels'), t('home.cards.levels'))}
