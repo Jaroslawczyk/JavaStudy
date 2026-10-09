@@ -147,20 +147,29 @@ export async function renderArticle(main, { folder, id, item = null, videos }) {
   document.title = `${title} — JavaStudy`;
 }
 
-let observer = null;
+let tocHandler = null;
 
+/* Активный пункт оглавления: последний заголовок выше линии под шапкой; внизу страницы — последний */
 function observeToc(main) {
-  observer?.disconnect();
-  const links = main.querySelectorAll('.toc__link');
-  if (!links.length || !('IntersectionObserver' in window)) return;
-  observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        links.forEach((l) => l.classList.toggle('toc__link--active', l.dataset.toc === entry.target.id));
-      });
-    },
-    { rootMargin: '-80px 0px -70% 0px' },
-  );
-  main.querySelectorAll('.article__body h2, .article__body h3').forEach((h) => observer.observe(h));
+  if (tocHandler) window.removeEventListener('scroll', tocHandler);
+  const links = [...main.querySelectorAll('.toc__link')];
+  if (!links.length) return;
+  const headings = [...main.querySelectorAll('.article__body h2, .article__body h3')].filter((h) => h.id);
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const line = (parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 64) + 24;
+    const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+    let current = atBottom ? headings[headings.length - 1] : null;
+    if (!current) {
+      for (const h of headings) {
+        if (h.getBoundingClientRect().top <= line) current = h;
+        else break;
+      }
+    }
+    links.forEach((l) => l.classList.toggle('toc__link--active', !!current && l.dataset.toc === current.id));
+  };
+  tocHandler = () => { if (!frame) frame = requestAnimationFrame(update); };
+  window.addEventListener('scroll', tocHandler, { passive: true });
+  update();
 }

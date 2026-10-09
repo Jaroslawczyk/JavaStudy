@@ -40,9 +40,12 @@
   font-weight: 700;
 }
 
-.task__title {
+.task__title,
+.article .task__title {
+  flex: 1 1 12rem;
   margin: 0;
   font-size: 1.05rem;
+  line-height: 1.35;
 }
 
 .task__body > * + * {
